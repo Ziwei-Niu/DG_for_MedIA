@@ -298,7 +298,7 @@ samples.
 
 ## Contributors
 
-<!-- readme: zerone-fg,contributors,github-action/- -start -->
+<!-- readme: zerone-fg,contributors,github-actions/- -start -->
 <table>
 <tr>
     <td align="center">
@@ -316,4 +316,4 @@ samples.
         </a>
     </td></tr>
 </table>
-<!-- readme: zerone-fg,contributors,github-action/- -end -->
+<!-- readme: zerone-fg,contributors,github-actions/- -end -->
