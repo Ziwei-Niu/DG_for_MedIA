@@ -298,5 +298,5 @@ samples.
 
 ## Contributors
 
-<!-- readme: <zerone-fg>,collaborators,<Ziwei-Niu>,contributors,<github-actions>/- -start -->
-<!-- readme: <zerone-fg>,collaborators,<Ziwei-Niu>,contributors,<github-actions>/- -end -->
+<!-- readme: <zerone-fg>,collaborators,<Ziwei-Niu>,contributors -start -->
+<!-- readme: <zerone-fg>,collaborators,<Ziwei-Niu>,contributors -end -->
