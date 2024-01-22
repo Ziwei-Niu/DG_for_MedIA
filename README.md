@@ -1,8 +1,8 @@
 # Domain Generalization for Medical Image Analysis
 
 ## Contributors
-<!-- readme: collaborators,contributors -start -->
-<!-- readme: collaborators,contributors -end -->
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization for medical Image Analysis**.
 
