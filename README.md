@@ -298,7 +298,6 @@ samples.
 
 ## Contributors
 
-<!-- readme: zerone-fg,collaborators,github-actions[bot]/- -start -->
-<!-- readme: zerone-fg,collaborators,github-actions[bot]/- -end -->
+<!-- readme: zerone-fg,contributors,github-actions/- -start -->
+<!-- readme: zerone-fg,contributors,github-actions/- -end -->
 
-github-actions[bot]
