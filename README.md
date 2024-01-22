@@ -297,5 +297,5 @@ samples.
 - We refer to [junkunyuan](https://github.com/junkunyuan/Awesome-Domain-Generalization), [amber0309](https://github.com/amber0309/Domain-generalization), and [yfzhang114](https://github.com/yfzhang114/Generalization-Causality) to design the details of the papers and datasets.
 
 ## Contributors
-<!-- readme: <Ziwei-Niu>,contributors,<zerone-fg>,collaborators/- -start -->
-<!-- readme: <Ziwei-Niu>,contributors,<zerone-fg>,collaborators/- -end -->
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
