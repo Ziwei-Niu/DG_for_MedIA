@@ -1,4 +1,6 @@
 # Domain Generalization for Medical Image Analysis
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization for medical Image Analysis**.
 
 💗 Medical Image Analysis (MedIA) plays a critical role in computer aided diagnosis system, enabling accurate diagnosis and assessment for various diseases. Over the last decade, deep learning (DL) has demonstrated great success in automating various MedIA tasks such as disease diagnosis, lesion segmentation, prognosis prediction, etc. Despite their success, in many real-world healthcare scenarios, the difference in the image acquisition, such as device manufacturer, scanning protocol, image sequence, and modality, introduces domain shifts, resulting in a significant decline in performance when deploying the well-trained model to clinical sites with different data distributions. Additionally, considering that medical data involves privacy concerns, data sharing restrictions and requires manual annotations by medical experts, collecting data from all possible domains to train DL models is expensive and even prohibitively impossible. Therefore, enhancing the generalization ability of DL models in MedIA is crucial in both clinical and academic fields.
