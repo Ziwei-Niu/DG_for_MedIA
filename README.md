@@ -1,9 +1,8 @@
 # Domain Generalization for Medical Image Analysis
 
 ## Contributors
-
-<!-- readme: <Ziwei-Niu>,collaborators,<zerone-fg>,contributors,<username3>/- -start -->
-<!-- readme: <username1>,collaborators,<username3>,contributors,<username3>/- -end -->
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
 
 🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization for medical Image Analysis**.
 
