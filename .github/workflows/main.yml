@@ -1,16 +1,14 @@
-name: main
-
-on: [pull_request_target, issues]
+on:
+    push:
+        branches:
+            - main
 
 jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
-    steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Welcome!!! and Thank-you, for your contribution."
-        pr-message: "Hey This is your first PR here. Thanks for your valuable contribution."
+    contrib-readme-job:
+        runs-on: ubuntu-latest
+        name: A job to automate contrib in readme
+        steps:
+            - name: Contribute List
+            - uses: akhilmhdh/contributors-readme-action@v2.3.6
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
