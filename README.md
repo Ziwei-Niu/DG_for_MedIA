@@ -296,16 +296,6 @@ samples.
 - We refer to [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://ieeexplore.ieee.org/abstract/document/9782500) to design the hierarchy of the [Contents](#contents).
 - We refer to [junkunyuan](https://github.com/junkunyuan/Awesome-Domain-Generalization), [amber0309](https://github.com/amber0309/Domain-generalization), and [yfzhang114](https://github.com/yfzhang114/Generalization-Causality) to design the details of the papers and datasets.
 
-# Contributors
-<!-- readme: collaborators,contributors -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/Ziwei-Niu">
-            <img src="https://avatars.githubusercontent.com/u/53245939?v=4" width="100;" alt="Ziwei-Niu"/>
-            <br />
-            <sub><b>ZiweiNiu</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: collaborators,contributors -end -->
+## Contributors
+<!-- readme: <Ziwei-Niu>,contributors,<zerone-fg>,collaborators/- -start -->
+<!-- readme: <Ziwei-Niu>,contributors,<zerone-fg>,collaborators/- -end -->
