@@ -304,7 +304,7 @@ samples.
         <a href="https://github.com/naturalknight">
             <img src="https://avatars.githubusercontent.com/u/51369520?v=4" width="100;" alt="naturalknight"/>
             <br />
-            <sub><b>Null</b></sub>
+            <sub><b>NaturalKnight</b></sub>
         </a>
     </td>
     <td align="center">
