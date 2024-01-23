@@ -298,6 +298,6 @@ samples.
 
 ## Contributors
 
-<!-- readme: <zerone-fg>,contributors,<NaturalKnight>,contributors -start -->
-<!-- readme: <zerone-fg>,contributors,<NaturalKnight>,contributors -end -->
+<!-- readme: zerone-fg,contributors,NaturalKnight,contributors -start -->
+<!-- readme: zerone-fg,contributors,NaturalKnight,contributors -end -->
 
