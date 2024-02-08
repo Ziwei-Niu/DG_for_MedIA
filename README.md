@@ -848,7 +848,7 @@ Self-supervised learning is a machine learning method where a model learns gener
     </td>
     <td align="center">
         <a href="https://github.com/Ziwei-Niu">
-            <img src="https://avatars.githubusercontent.com/u/53245939?v=4" width="100;" alt="aiwei-Niu"/>
+            <img src="https://avatars.githubusercontent.com/u/53245939?v=4" width="100;" alt="Ziwei-Niu"/>
             <br />
             <sub><b>ZiweiNiu</b></sub>
         </a>
