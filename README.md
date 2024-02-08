@@ -834,6 +834,20 @@ Self-supervised learning is a machine learning method where a model learns gener
 - We refer to [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://ieeexplore.ieee.org/abstract/document/9782500) to design the hierarchy of the [Contents](#contents).
 - We refer to [junkunyuan](https://github.com/junkunyuan/Awesome-Domain-Generalization), [amber0309](https://github.com/amber0309/Domain-generalization), and [yfzhang114](https://github.com/yfzhang114/Generalization-Causality) to design the details of the papers and datasets.
 
+
+<div style="display: flex; align-items: center;">
+  <img src="images/img3.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
+  <ul style="list-style-type: disc; padding-left: 20px;">
+    <li>
+    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_42">Improve Unseen Domain Generalization via Enhanced Local Color Transformation</a></li>
+    <li>Publication: MICCAI 2020 </li>
+    <li>Summary: Propose Enhanced Domain Transformation (EDT) for diabetic retinopathy classification, which aims to project the images into a color space that aligns the distribution of source data and unseen target data. </li>
+    <!-- <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">[Code]</a></li> -->
+
+  </ul>
+</div>
+
+
 ## Contributors
 <!-- readme: NaturalKnight,contributors,zerone-fg,contributors -start -->
 <table>
