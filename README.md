@@ -51,7 +51,7 @@
 ### Data Augmentation 
 > Augmentation is widely employed in vision tasks to mitigate overfitting and improve generalization capacity, including operations like flipping, cropping, color jittering, noise addition, and others. For domain generalization in medical image analysis, augmentation methods can be broadly categorized as randomization-based, adversarial-based, and normalization-based.
 #### Normalization-based
-Normalization-based methods aims to normalize the raw intensity values or statistics to reduce the impact of variations in image intensity across different domains. Specifically, these methods are usually employed for specific tasks, such as pathological images.
+Normalization-based methods aims to normalize the raw intensity values or statistics to reduce the impact of variations in image intensity across different domains. Specifically, these methods are usually employed for specific tasks, such as pathological images testtest.
 
 
 <div style="display: flex; align-items: center;">
