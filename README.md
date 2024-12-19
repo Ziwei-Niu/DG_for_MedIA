@@ -33,6 +33,9 @@
       - [Meta Learning](#meta-learning)
       - [Self-supervised Learning](#self-supervised-learning)
     - [Optimization Strategy](#optimization-strategy)
+  - [Universal Foundation Model](#universal-foundation-model)
+    - [Interactive Segmentation](#interactive-segmentation)
+    - [Few-shot Segmentation](#few-shot-segmentation)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Other Resources](#other-resources)
@@ -790,7 +793,11 @@ Self-supervised learning is a machine learning method where a model learns gener
 </div>
 
 
+## Universal Foundation Model
 
+### Interactive Segmentation
+
+### Few-shot Segmentation
 
 
 
