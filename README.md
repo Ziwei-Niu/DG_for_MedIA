@@ -866,14 +866,14 @@ Self-supervised learning is a machine learning method where a model learns gener
     </td>
     <td align="center">
         <a href="https://github.com/Ziwei-Niu">
-            <img src="https://private-avatars.githubusercontent.com/u/53245939?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTY2ODAsIm5iZiI6MTczNDYxNTQ4MCwicGF0aCI6Ii91LzUzMjQ1OTM5In0.eMqsH__HPfIMCEf3I4wDqfiOCHA_9uTyDnFQCIbsue4&v=4" width="100;" alt="Ziwei-Niu"/>
+            <img src="https://private-avatars.githubusercontent.com/u/53245939?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTkzODAsIm5iZiI6MTczNDYxODE4MCwicGF0aCI6Ii91LzUzMjQ1OTM5In0.xau_vVe-MysUIoLhVeVbqfmuaRD5YSWp7FQyIkOUHSg&v=4" width="100;" alt="Ziwei-Niu"/>
             <br />
             <sub><b>ZiweiNiu</b></sub>
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/zerone-fg">
-            <img src="https://private-avatars.githubusercontent.com/u/52369263?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTYzMjAsIm5iZiI6MTczNDYxNTEyMCwicGF0aCI6Ii91LzUyMzY5MjYzIn0.o82Zeis4yKrLhhh8EW2zRumhR-45mqh5t9h2Sn_EYEw&v=4" width="100;" alt="zerone-fg"/>
+            <img src="https://private-avatars.githubusercontent.com/u/52369263?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTkwMjAsIm5iZiI6MTczNDYxNzgyMCwicGF0aCI6Ii91LzUyMzY5MjYzIn0.3OQo-_zuoDtwTzDWPEI8wX9mSD01RakSXEM6Q4Kxc-E&v=4" width="100;" alt="zerone-fg"/>
             <br />
             <sub><b>Zerone-fg</b></sub>
         </a>
