@@ -803,7 +803,7 @@ Self-supervised learning is a machine learning method where a model learns gener
     Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li>
     <li>Publication: Nature Communications 2024 </li>
     <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types.. </li>
-    <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+    <li><a href="https://github.com/bowang-lab/MedSAM">[Code]</a></li>
 
   </ul>
 </div>
