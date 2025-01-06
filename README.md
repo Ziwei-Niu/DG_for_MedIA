@@ -598,39 +598,13 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-<table style="width: 500px; table-layout: auto;">
-  <tr>
-    <td style="width: 150px; overflow: hidden; vertical-align: top;">
-      <img src="images/img50.png" style="width: 100%; height: auto; object-fit: contain;" />
-    </td>
-    <td style="vertical-align: top;">
-      <ul style="padding-left: 20px; text-align: justify;">
-        <li>
-          Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
-        </li>
-        <li>Publication: ICCV 2023</li>
-        <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li>
-        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+|||
+|:-----:|:------------|
+| <img src="images/img50.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
 
-<table style="width: 500px; table-layout: auto;">
-  <tr>
-    <td style="width: 150px; overflow: hidden; vertical-align: top;">
-      <img src="images/img31.png" style="width: 100%; height: auto; object-fit: contain;" />
-    </td>
-    <td style="vertical-align: top;">
-      <ul style="padding-left: 20px; text-align: justify;">
-        <li>
-    Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>
-    <li>Publication: ICLR 2023 </li>
-    <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+|||
+|:-----:|:------------|
+| <img src="images/img33.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** n tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
     <tr>
