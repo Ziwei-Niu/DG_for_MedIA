@@ -161,6 +161,7 @@ Domain-adversarial training methods are widely used for learning domain-invarian
 #### Multi-component learning
 Multi-component learning achieves feature disentanglement by designing different components to separately extract domain-invariant features and domain-specific features, thereby achieving feature decoupling.
 
+| Diagram | Descriptions |
 |:-----------------:|:------------|
 | <img src="images/img28.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2303.12649">MI-SegNet: Mutual Information-Based US Segmentation for Unseen Domain Generalization</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Propose MI-SegNet for ultrasound image segmentation. MI-SegNet employs two encoders that separately extract anatomical and domain features from images, and Mutual Information Neural Estimation (MINE) approximation is used to minimize the mutual information between these features. </li>|
 | <img src="images/img48.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html">Towards principled disentanglement for domain generalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Introduce disentanglement-constrained domain generalization (DDG) for cross-center tumor detection, which simultaneously learns a semantic encoder and a variation encoder for feature disentanglement, and further constrains the learned representations to be invariant to inter-class variation. </li>|
