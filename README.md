@@ -109,123 +109,17 @@ Adversarial-based data augmentation methods are driven by adversarial training, 
 ### Data Generation
 > Data generation is devoted to utilizing generative models such as Variational Autoencoder (VAE), Generative Adversarial Networks (GANs), Diffusion Models and etc., to generate fictional and novel samples. With source domain data becoming more complex, diverse, and informative, the generalization ability can be increased.
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img45.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/article/10.1007/s00530-023-01059-0">GH-DDM: the generalized hybrid denoising diffusion model for medical image generation</a></li>
-    <li>Publication: Multimedia Systems 2023 </li>
-    <li>Summary: Introduce a generalized hybrid denoising diffusion model to enhance generalization ability by generating new cross-domain medical images, which leverages the strong abilities of transformers into diffusion models to model long-range interactions and spatial relationships between anatomical structures. </li>
-    <!-- <li><a href="https://gitlab.com/vitadx/articles/test-time-i2i-translation-ensembling">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img16.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_12">Test-Time Image-to-Image Translation Ensembling Improves Out-of-Distribution Generalization in Histopathology</a></li>
-    <li>Publication: MICCAI 2022 </li>
-    <li>Summary: Utilize multi-domain image-to-image translation model StarGanV2 and projects histopathology test images from unseen domains to the source domains, classify the projected images and ensemble their predictions. </li>
-    <li><a href="https://gitlab.com/vitadx/articles/test-time-i2i-translation-ensembling">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img17.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://proceedings.mlr.press/v172/hu22a.html">Domain Generalization for Retinal Vessel Segmentation with Vector Field Transformer</a></li>
-    <li>Publication: PMLR 2022 </li>
-    <li>Summary: Apply auto-encoder to generate different styles of enhanced vessel maps for augmentation and uses Hessian matrices of an image for segmentation as vector fields better capture the morphological features and suffer less from covariate shift. </li>
-    <li><a href="https://github.com/MedICL-VU/Vector-Field-Transformer">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img18.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-25069-9_14">CIRCLe: Color Invariant Representation Learning for Unbiased Classification of Skin Lesions</a></li>
-    <li>Publication: ECCV Workshop 2022 </li>
-    <li>Summary: Use a Star Generative Adversarial Network (StarGAN) to transform skin types (style), and enforce the feature representation to be invariant across different skin types. </li>
-    <li><a href="https://github.com/arezou-pakzad/CIRCLe">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img19.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Li_Semantic_Segmentation_With_Generative_Models_Semi-Supervised_Learning_and_Strong_Out-of-Domain_CVPR_2021_paper.html">Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization</a></li>
-    <li>Publication: CVPR 2021 </li>
-    <li>Summary: Propose a fully generative approach to semantic segmentation based on StyleGAN2, that models the joint image-label distribution and synthesizes both images and their semantic segmentation masks. </li>
-    <li><a href="https://github.com/nv-tlabs/semanticGAN_code">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img20.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-92270-2_24">Generative Adversarial Domain Generalization via Cross-Task Feature Attention Learning for Prostate Segmentation</a></li>
-    <li>Publication: ICONIP 2021 </li>
-    <li>Summary: Propose a new Generative Adversarial Domain Generalization (GADG) network, which can achieve the domain generalization through the generative adversarial learning on multi-site prostate MRI images. Additionally, to make the prostate segmentation network learned from the source domains still have good performance in the target domain, a Cross-Task Attention Module (CTAM) is designed to transfer the main domain generalized features from the generation branch to the segmentation branch. </li>
-    <!-- <li><a href="https://github.com/nv-tlabs/semanticGAN_code">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img21.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/document/9503389">Learning Domain-Agnostic Visual Representation for Computational Pathology Using Medically-Irrelevant Style Transfer Augmentation</a></li>
-    <li>Publication: TMI 2021 </li>
-    <li>Summary: Propose a style transfer-based aug- mentation (STRAP) method for a tumor classification task, which applies style transfer from non-medical images to histopathology images. </li>
-    <li><a href="https://github.com/rikiyay/style-transfer-for-digital-pathology">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img22.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-78191-0_51">Multimodal Self-supervised Learning for Medical Image Analysis</a></li>
-    <li>Publication: IPMI 2021 </li>
-    <li>Summary: Propose a novel approach leveraging self-supervised learning through multimodal jigsaw puzzles for cross-modal medical image synthesis tasks. Additionally, to increase the quantity of multimodal data, they design a cross-modal generation step to create synthetic images from one modality to another using the CycleGAN-based translation model.  </li>
-    <!-- <li><a href="https://github.com/rikiyay/style-transfer-for-digital-pathology">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img23.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-68107-4_21">Random Style Transfer Based Domain Generalization Networks Integrating Shape and Spatial Information</a></li>
-    <li>Publication: STACOM 2020 </li>
-    <li>Summary: Propose novel random style transfer based domain general- ization networks incorporating spatial and shape information based on GANs.  </li>
-    <!-- <li><a href="https://github.com/rikiyay/style-transfer-for-digital-pathology">[Code]</a></li> -->
-
-  </ul>
-</div>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img45.png" width="900"> |<li> Title: <a href="https://link.springer.com/article/10.1007/s00530-023-01059-0">GH-DDM: the generalized hybrid denoising diffusion model for medical image generation</a></li> <li>Publication: Multimedia Systems 2023 </li> <li>Summary: Introduce a generalized hybrid denoising diffusion model to enhance generalization ability by generating new cross-domain medical images, which leverages the strong abilities of transformers into diffusion models to model long-range interactions and spatial relationships between anatomical structures. </li>|
+| <img src="images/img16.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_12">Test-Time Image-to-Image Translation Ensembling Improves Out-of-Distribution Generalization in Histopathology</a></li> <li>Publication: MICCAI 2022 </li> <li>Summary: Utilize multi-domain image-to-image translation model StarGanV2 and projects histopathology test images from unseen domains to the source domains, classify the projected images and ensemble their predictions. </li> <li> Code:<a href="https://gitlab.com/vitadx/articles/test-time-i2i-translation-ensembling">https://gitlab.com/vitadx/articles/test-time-i2i-translation-ensembling</a></li>|
+| <img src="images/img17.png" width="900"> |<li> Title: <a href="https://proceedings.mlr.press/v172/hu22a.html">Domain Generalization for Retinal Vessel Segmentation with Vector Field Transformer</a></li> <li>Publication: PMLR 2022 </li> <li>Summary: Apply auto-encoder to generate different styles of enhanced vessel maps for augmentation and uses Hessian matrices of an image for segmentation as vector fields better capture the morphological features and suffer less from covariate shift. </li> <li> Code:<a href="https://github.com/MedICL-VU/Vector-Field-Transformer">https://github.com/MedICL-VU/Vector-Field-Transformer</a></li>|
+| <img src="images/img18.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-25069-9_14">CIRCLe: Color Invariant Representation Learning for Unbiased Classification of Skin Lesions</a></li> <li>Publication: ECCV Workshop 2022 </li> <li>Summary: Use a Star Generative Adversarial Network (StarGAN) to transform skin types (style), and enforce the feature representation to be invariant across different skin types. </li> <li><a href="https://github.com/arezou-pakzad/CIRCLe">https://github.com/arezou-pakzad/CIRCLe</a></li>|
+| <img src="images/img19.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Li_Semantic_Segmentation_With_Generative_Models_Semi-Supervised_Learning_and_Strong_Out-of-Domain_CVPR_2021_paper.html">Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization</a></li> <li>Publication: CVPR 2021 </li> <li>Summary: Propose a fully generative approach to semantic segmentation based on StyleGAN2, that models the joint image-label distribution and synthesizes both images and their semantic segmentation masks. </li> <li> Code:<a href="https://github.com/nv-tlabs/semanticGAN_code">https://github.com/nv-tlabs/semanticGAN_code</a></li>|
+| <img src="images/img20.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-92270-2_24">Generative Adversarial Domain Generalization via Cross-Task Feature Attention Learning for Prostate Segmentation</a></li> <li>Publication: ICONIP 2021 </li> <li>Summary: Propose a new Generative Adversarial Domain Generalization (GADG) network, which can achieve the domain generalization through the generative adversarial learning on multi-site prostate MRI images. Additionally, to make the prostate segmentation network learned from the source domains still have good performance in the target domain, a Cross-Task Attention Module (CTAM) is designed to transfer the main domain generalized features from the generation branch to the segmentation branch. </li>|
+| <img src="images/img21.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/document/9503389">Learning Domain-Agnostic Visual Representation for Computational Pathology Using Medically-Irrelevant Style Transfer Augmentation</a></li> <li>Publication: TMI 2021 </li> <li>Summary: Propose a style transfer-based aug- mentation (STRAP) method for a tumor classification task, which applies style transfer from non-medical images to histopathology images. </li> <li> Code:<a href="https://github.com/rikiyay/style-transfer-for-digital-pathology">https://github.com/rikiyay/style-transfer-for-digital-pathology</a></li>|
+| <img src="images/img22.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-78191-0_51">Multimodal Self-supervised Learning for Medical Image Analysis</a></li> <li>Publication: IPMI 2021 </li> <li>Summary: Propose a novel approach leveraging self-supervised learning through multimodal jigsaw puzzles for cross-modal medical image synthesis tasks. Additionally, to increase the quantity of multimodal data, they design a cross-modal generation step to create synthetic images from one modality to another using the CycleGAN-based translation model.|
+| <img src="images/img23.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-68107-4_21">Random Style Transfer Based Domain Generalization Networks Integrating Shape and Spatial Information</a></li> <li>Publication: STACOM 2020 </li> <li>Summary: Propose novel random style transfer based domain general- ization networks incorporating spatial and shape information based on GANs.  </li>|
 
 
 
@@ -236,104 +130,29 @@ Adversarial-based data augmentation methods are driven by adversarial training, 
 #### Feature normalization 
 This line of methods aim to enhance the generalization ability of models by centering, scaling, decorrelating, standardizing, and whitening extracted feature distributions. This process aids in accelerating the convergence of algorithms and prevents features with larger scales from overpowering those with smaller ones. Common techniques include traditional scaling methods like min-max and z-score normalization, as well as deep learning methods such as batch, layer, and instance normalization.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img46.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://www.sciencedirect.com/science/article/pii/S0010482523001828">SAN-Net: Learning generalization to unseen sites for stroke lesion segmentation with self-adaptive normalization</a></li>
-    <li>Publication: CBM 2023 </li>
-    <li>Summary: Devise a masked adaptive instance normalization to minimize inter-sites discrepancies for cross-sites stroke lesion segmentation, which standardized input images from different sites into a domain-unrelated style by dynamically learning affine parameters.  </li>
-    <li><a href="https://github.com/wyyu0831/SAN">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img24.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.12782">SS-Norm: Spectral-spatial normalization for single-domain generalization with application to retinal vessel segmentation</a></li>
-    <li>Publication: IET IP 2023 </li>
-    <li>Summary: Decompose the feature into multiple frequency components by performing discrete cosine transform and analyze the semantic contribution degree of each component. Then reweight the frequency components of features and therefore normalize the distribution in the spectral domain.  </li>
-    <!-- <li><a href="https://github.com/rikiyay/style-transfer-for-digital-pathology">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img6.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Generalizable_Cross-Modality_Medical_Image_Segmentation_via_Style_Augmentation_and_Dual_CVPR_2022_paper.html">Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization</a></li>
-    <li>Publication: CVPR 2022 </li>
-    <li>Summary: Design a dual-normalization module to estimate domain distribution information. During the test stage, the model select the nearest feature statistics according to style-embeddings in the dual-normalization module to normalize target domain features for generalization.  </li>
-    <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li>
-
-  </ul>
-</div>
-
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img46.png" width="900"> |<li> Title: <a href="https://www.sciencedirect.com/science/article/pii/S0010482523001828">SAN-Net: Learning generalization to unseen sites for stroke lesion segmentation with self-adaptive normalization</a></li> <li>Publication: CBM 2023 </li> <li>Summary: Devise a masked adaptive instance normalization to minimize inter-sites discrepancies for cross-sites stroke lesion segmentation, which standardized input images from different sites into a domain-unrelated style by dynamically learning affine parameters.  </li> <li> Code:<a href="https://github.com/wyyu0831/SAN">https://github.com/wyyu0831/SAN</a></li>|
+| <img src="images/img24.png" width="900"> |<li> Title: <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.12782">SS-Norm: Spectral-spatial normalization for single-domain generalization with application to retinal vessel segmentation</a></li> <li>Publication: IET IP 2023 </li> <li>Summary: Decompose the feature into multiple frequency components by performing discrete cosine transform and analyze the semantic contribution degree of each component. Then reweight the frequency components of features and therefore normalize the distribution in the spectral domain.  </li>|
+| <img src="images/img6.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Generalizable_Cross-Modality_Medical_Image_Segmentation_via_Style_Augmentation_and_Dual_CVPR_2022_paper.html">Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Design a dual-normalization module to estimate domain distribution information. During the test stage, the model select the nearest feature statistics according to style-embeddings in the dual-normalization module to normalize target domain features for generalization.  </li> <li> Code:<a href="https://github.com/zzzqzhou/Dual-Normalization">https://github.com/zzzqzhou/Dual-Normalization</a></li>|
 
 
 #### Explicit feature alignment
 Explicit feature alignment methods attempt to remove domain shifts by reducing the discrepancies in feature distributions across multiple source domains, thereby facilitating the learning of domain-invariant feature representations.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img25.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/201d7288b4c18a679e48b31c72c30ded-Paper.pdf">Domain Generalization for Medical Imaging Classification with Linear-Dependency Regularization</a></li>
-    <li>Publication: NeurIPS 2020 </li>
-    <li>Summary: Adopt Kullback-Leibler (KL) divergence to align the distributions of latent features extracted from multiple source domains with a predefined prior distribution.  </li>
-    <li><a href="https://github.com/wyf0912/LDDG">[Code]</a></li>
-
-  </ul>
-</div>
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img26.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9234592">Measuring Domain Shift for Deep Learning in Histopathology</a></li>
-    <li>Publication: JBHI 2020 </li>
-    <li>Summary: Design a dual-normalization module to estimate domain distribution information. During the test stage, the model select the nearest feature statistics according to style-embeddings in the dual-normalization module to normalize target domain features for generalization. </li>
-    <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li>
-
-  </ul>
-</div>
-
-
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img25.png" width="900"> |<li> Title: <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/201d7288b4c18a679e48b31c72c30ded-Paper.pdf">Domain Generalization for Medical Imaging Classification with Linear-Dependency Regularization</a></li> <li>Publication: NeurIPS 2020 </li> <li>Summary: Adopt Kullback-Leibler (KL) divergence to align the distributions of latent features extracted from multiple source domains with a predefined prior distribution.  </li> <li> Code:<a href="https://github.com/wyf0912/LDDG">https://github.com/wyf0912/LDDG</a></li>|
+| <img src="images/img26.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9234592">Measuring Domain Shift for Deep Learning in Histopathology</a></li> <li>Publication: JBHI 2020 </li> <li>Summary: Design a dual-normalization module to estimate domain distribution information. During the test stage, the model select the nearest feature statistics according to style-embeddings in the dual-normalization module to normalize target domain features for generalization. </li> <li>Code:<a href="https://github.com/zzzqzhou/Dual-Normalization">https://github.com/zzzqzhou/Dual-Normalization</a></li>|
 
 
 #### Domain adversarial learning
 Domain-adversarial training methods are widely used for learning domain-invariant representations by introducing a domain discriminator in an adversarial relationship with the feature extractor
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img27.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/10016237">Adversarially-Regularized Mixed Effects Deep Learning (ARMED) Models Improve Interpretability, Performance, and Generalization on Clustered (non-iid) Data</a></li>
-    <li>Publication: IEEE TPAMI 2023 </li>
-    <li>Summary: Propose a general-purpose framework for Adversarially-Regularized Mixed Effects Deep learning (ARMED). The ARMED employ an adversarial classifier to regularize the model to learn cluster-invariant fixed effects (domain invariant). The classifier attempts to predict the cluster membership based on the learned features, while the feature extractor is penalized for enabling this prediction. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img47.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_Localized_Adversarial_Domain_Generalization_CVPR_2022_paper.html">Localized adversarial domain generalization</a></li>
-    <li>Publication: CVPR 2022 </li>
-    <li>Summary: Propose a general-purpose framework for Adversarially-Regularized Mixed Effects Deep learning (ARMED). The ARMED employ an adversarial classifier to regularize the model to learn cluster-invariant fixed effects (domain invariant). The classifier attempts to predict the cluster membership based on the learned features, while the feature extractor is penalized for enabling this prediction. </li>
-    <li><a href="https://github.com/zwvews/LADG">[Code]</a></li>
-
-  </ul>
-</div>
-
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img27.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/10016237">Adversarially-Regularized Mixed Effects Deep Learning (ARMED) Models Improve Interpretability, Performance, and Generalization on Clustered (non-iid) Data</a></li> <li>Publication: IEEE TPAMI 2023 </li> <li>Summary: Propose a general-purpose framework for Adversarially-Regularized Mixed Effects Deep learning (ARMED). The ARMED employ an adversarial classifier to regularize the model to learn cluster-invariant fixed effects (domain invariant). The classifier attempts to predict the cluster membership based on the learned features, while the feature extractor is penalized for enabling this prediction. </li>|
+| <img src="images/img47.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_Localized_Adversarial_Domain_Generalization_CVPR_2022_paper.html">Localized adversarial domain generalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Propose a general-purpose framework for Adversarially-Regularized Mixed Effects Deep learning (ARMED). The ARMED employ an adversarial classifier to regularize the model to learn cluster-invariant fixed effects (domain invariant). The classifier attempts to predict the cluster membership based on the learned features, while the feature extractor is penalized for enabling this prediction. </li> <li>Code:<a href="https://github.com/zwvews/LADG">https://github.com/zwvews/LADG</a></li>|
 
 
 ### Feature disentanglement
@@ -342,57 +161,12 @@ Domain-adversarial training methods are widely used for learning domain-invarian
 #### Multi-component learning
 Multi-component learning achieves feature disentanglement by designing different components to separately extract domain-invariant features and domain-specific features, thereby achieving feature decoupling.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img28.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://arxiv.org/abs/2303.12649">MI-SegNet: Mutual Information-Based US Segmentation for Unseen Domain Generalization</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Propose MI-SegNet for ultrasound image segmentation. MI-SegNet employs two encoders that separately extract anatomical and domain features from images, and Mutual Information Neural Estimation (MINE) approximation is used to minimize the mutual information between these features. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img48.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html">Towards principled disentanglement for domain generalization</a></li>
-    <li>Publication: CVPR 2022 </li>
-    <li>Summary: Introduce disentanglement-constrained domain generalization (DDG) for cross-center tumor detection, which simultaneously learns a semantic encoder and a variation encoder for feature disentanglement, and further constrains the learned representations to be invariant to inter-class variation. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img29.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://arxiv.org/abs/2205.06551">Contrastive Domain Disentanglement for Generalizable Medical Image Segmentation</a></li>
-    <li>Publication: Arxiv 2022 </li>
-    <li>Summary: Propose Contrastive Domain Disentanglement and Style Augmentation (CDDSA) for image segmentation in the fundus and MR images. This method introduce a disentangle network to decompose medical images into an anatomical representation and a modality representation, and a style contrastive loss function is designed to ensures that style representations from the same domain bear similarity while those from different domains diverge significantly. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img30.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9163289">DoFE: Domain-Oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets</a></li>
-    <li>Publication: IEEE TMI 2020 </li>
-    <li>Summary: Proposed Domain-oriented Feature Embedding (DoFE) for fundus image segmentation. The DoFE framework incorporates a domain knowledge pool to learn and store the domain prior information (domain-specic) extracted from the multi-source domains. This domain prior knowledge is then dynamically enriched with the image features to make the semantic features more discriminative, improving the generalization ability of the segmentation networks on unseen target domains. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-
-  </ul>
-</div>
-
+|:-----------------:|:------------|
+| <img src="images/img28.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2303.12649">MI-SegNet: Mutual Information-Based US Segmentation for Unseen Domain Generalization</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Propose MI-SegNet for ultrasound image segmentation. MI-SegNet employs two encoders that separately extract anatomical and domain features from images, and Mutual Information Neural Estimation (MINE) approximation is used to minimize the mutual information between these features. </li>|
+| <img src="images/img48.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html">Towards principled disentanglement for domain generalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Introduce disentanglement-constrained domain generalization (DDG) for cross-center tumor detection, which simultaneously learns a semantic encoder and a variation encoder for feature disentanglement, and further constrains the learned representations to be invariant to inter-class variation. </li>|
+| <img src="images/img29.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2205.06551">Contrastive Domain Disentanglement for Generalizable Medical Image Segmentation</a></li> <li>Publication: Arxiv 2022 </li> <li>Summary: Propose Contrastive Domain Disentanglement and Style Augmentation (CDDSA) for image segmentation in the fundus and MR images. This method introduce a disentangle network to decompose medical images into an anatomical representation and a modality representation, and a style contrastive loss function is designed to ensures that style representations from the same domain bear similarity while those from different domains diverge significantly. </li>|
+| <img src="images/img30.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9163289">DoFE: Domain-Oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Proposed Domain-oriented Feature Embedding (DoFE) for fundus image segmentation. The DoFE framework incorporates a domain knowledge pool to learn and store the domain prior information (domain-specic) extracted from the multi-source domains. This domain prior knowledge is then dynamically enriched with the image features to make the semantic features more discriminative, improving the generalization ability of the segmentation networks on unseen target domains. </li>|
+| <img src="images/img30.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9163289">DoFE: Domain-Oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Proposed Domain-oriented Feature Embedding (DoFE) for fundus image segmentation. The DoFE framework incorporates a domain knowledge pool to learn and store the domain prior information (domain-specic) extracted from the multi-source domains. This domain prior knowledge is then dynamically enriched with the image features to make the semantic features more discriminative, improving the generalization ability of the segmentation networks on unseen target domains. </li>|
 
 
 #### Generative Learning
@@ -465,7 +239,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 
 | Diagram | Descriptions |
 |:-----------------:|:------------|
-| <img src="images/img51.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li> <li>Publication: Nature Communications 2024 </li> <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li> <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>|
+<!-- Nature Communications 2024 -->| <img src="images/img51.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li> <li>Publication: Nature Communications 2024 </li> <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li> <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>|
 
 
 ### Few-shot Segmentation
