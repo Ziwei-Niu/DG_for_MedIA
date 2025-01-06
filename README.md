@@ -9,6 +9,11 @@
 
 🎯 We hope that this repository can provide assistance to researchers and practitioners in medical image analysis and domain generalization.
 
+🚀 New Updates:
+- **06/01/2025 :** We have modified the presentation format to a table, which makes it easier for readers to review.
+- **25/12/2024 :** We have added a Universal Segmentation Foundational Model branch.
+- **08/02/2024 :** We released this repo for organizing papers ,codes, and etc related to domain generalization for medical image analysis.
+
 # Table of Contents
 - [ Domain Generalization for Medical Image Analysis](#-domain-generalization-for-medical-image-analysis)
 - [Table of Contents](#table-of-contents)
