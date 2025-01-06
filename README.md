@@ -837,6 +837,21 @@ Self-supervised learning is a machine learning method where a model learns gener
   </ul>
 </div>
 
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img50.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <p><li>
+    Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li>
+    <li>Publication: ICCV 2023 </li>
+    <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities. </li>
+    <li><a href="https://universeg.csail.mit.edu">[Code]</a></li></p>
+    </td>
+  </tr>
+</table>
+
 
 
 # Datasets
