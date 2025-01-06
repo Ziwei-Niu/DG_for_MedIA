@@ -598,12 +598,11 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-| Image | Description|
+| Diagram | Descriptions |
 |:-----------------:|:------------|
 | <img src="images/img31.png" width="900"> | <li>Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>   <li>Publication: ICLR 2023 </li> <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>|
 | <img src="images/img49.png" width="900"> | <li>Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>|
 |<img src="images/img32.png" width="900"> |<li>Title: <a href="http://proceedings.mlr.press/v121/ilse20a.html">DIVA: Domain Invariant Variational Autoencoders</a></li> <li>Publication: PLMR 2022 </li> <li>Summary: Propose Domain-invariant variational autoencoder (DIVA) for malaria cell image classification, which disentangles the features into domain information, category information, and other information, which is learned in the VAE framework. </li> <li>Code: <a href="https://github.com/AMLab-Amsterdam/DIVA">https://github.com/AMLab-Amsterdam/DIVA</a>|
-|<img src="images/img33.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2109.05826">Variational Disentanglement for Domain Generalization</a></li> <li>Publication: TMLR 2022 </li> <li>Summary: Propose a Variational Disentanglement Network (VDN) to classify breast cancer metastases. VDN disentangles domain-invariant and domain-specific features by estimating the information gain and maximizing the posterior probability. </li>|
 |<img src="images/img33.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2109.05826">Variational Disentanglement for Domain Generalization</a></li> <li>Publication: TMLR 2022 </li> <li>Summary: Propose a Variational Disentanglement Network (VDN) to classify breast cancer metastases. VDN disentangles domain-invariant and domain-specific features by estimating the information gain and maximizing the posterior probability. </li>|
 
 
@@ -616,50 +615,12 @@ Generative models are also effective techniques for traditional feature disentan
 #### Ensemble Learning
 Ensemble learning is a machine learning technique where multiple models are trained to solve the same problem. For domain generalization, different models can capture domain-specific patterns and representations, so their combination could lead to more robust predictions.
 
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img35.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://www.sciencedirect.com/science/article/pii/S0950705123002708">Mixture of calibrated networks for domain generalization in brain tumor segmentation Data</a></li>
-    <li>Publication: KBS 2023 </li>
-    <li>Summary: Design the mixture of calibrated networks (MCN) for cross-domain brain tumor segmentation, which combines the predictions from multiple models, and each model has unique calibration characteristics to generate diverse and fine-grained segmentation map. </li>
-    </tr>
-  </table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img35.png" width="900"> | <li>Title: <a href="https://www.sciencedirect.com/science/article/pii/S0950705123002708">Mixture of calibrated networks for domain generalization in brain tumor segmentation Data</a></li> <li>Publication: KBS 2023 </li> <li>Summary: Design the mixture of calibrated networks (MCN) for cross-domain brain tumor segmentation, which combines the predictions from multiple models, and each model has unique calibration characteristics to generate diverse and fine-grained segmentation map. </li>|
+| <img src="images/img36.png" width="900"> | <li>Title: <a href="https://www.sciencedirect.com/science/article/pii/S1361841521003571">DeepLesionBrain: Towards a broader deep-learning generalization for multiple sclerosis lesion segmentation</a></li> <li>Publication: MedIA 2021 </li> <li>Summary: Use a large group of compact 3D CNNs spatially distributed over the brain regions and associate a distinct network with each region of the brain, thereby producing consensus-based segmentation robust to domain shift. </li>|
+| <img src="images/img34.png" width="900"> | <li>    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9000851">MS-Net: Multi-Site Network for Improving Prostate Segmentation With Heterogeneous MRI Data</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Propose multi-site network (MS-Net) for cross-site prostate segmentation, which consists of a universal network and multiple domain-specific auxiliary branches. The universal network is trained with the supervision of ground truth and transferred multi-site knowledge from auxiliary branches to help explore the general representation. </li> <li>Code: <a href="https://github.com/liuquande/MS-Net">https://github.com/liuquande/MS-Net</a>|
 
-
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img36.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://www.sciencedirect.com/science/article/pii/S1361841521003571">DeepLesionBrain: Towards a broader deep-learning generalization for multiple sclerosis lesion segmentation</a></li>
-    <li>Publication: MedIA 2021 </li>
-    <li>Summary: Use a large group of compact 3D CNNs spatially distributed over the brain regions and associate a distinct network with each region of the brain, thereby producing consensus-based segmentation robust to domain shift. </li>
-    </tr>
-  </table>
-
-
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img34.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9000851">MS-Net: Multi-Site Network for Improving Prostate Segmentation With Heterogeneous MRI Data</a></li>
-    <li>Publication: IEEE TMI 2020 </li>
-    <li>Summary: Propose multi-site network (MS-Net) for cross-site prostate segmentation, which consists of a universal network and multiple domain-specific auxiliary branches. The universal network is trained with the supervision of ground truth and transferred multi-site knowledge from auxiliary branches to help explore the general representation. </li>
-      <li>Code: <a href="https://github.com/liuquande/MS-Net">https://github.com/liuquande/MS-Net</a>
-    </tr>
-  </table>
 
 
 #### Meta Learning
