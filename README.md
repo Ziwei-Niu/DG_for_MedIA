@@ -599,73 +599,30 @@ Multi-component learning achieves feature disentanglement by designing different
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img31.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
+    <tr>
+      <td style="width: 200px; vertical-align: top; overflow: hidden;">
+        <img src="images/img31.png" style="width: 150px; height: auto;" />
+      </td>
+      <td style="vertical-align: top; white-space: normal;">
+        <ul>
+          <li>
     Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>
     <li>Publication: ICLR 2023 </li>
     <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-  </ul>
-</div>
+        </ul>
+      </td>
+    </tr>
+  </table>
 
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
   <tr>
-    <td style="width: 150px; vertical-align: top; overflow: hidden;">
-      <img src="images/img50.png" style="width: 150px; height: auto;" />
-    </td>
-    <td style="vertical-align: top; white-space: normal;">
-      <ul>
-        <li><strong>Title:</strong> UniverSeg</li>
-        <li><strong>Publication:</strong> ICCV 2023</li>
-        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
-  <tr>
-    <td style="width: 150px; vertical-align: top; overflow: hidden;">
+    <td style="width: 200px; vertical-align: top; overflow: hidden;">
       <img src="images/img49.png" style="width: 150px; height: auto;" />
     </td>
     <td style="vertical-align: top; white-space: normal;">
       <ul>
-        <li><strong>Title:</strong> UniverSeg</li>
-        <li><strong>Publication:</strong> ICCV 2023</li>
-        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<table style="width: 500px;">
-  <tr>
-    <td style="width: 150px; text-align: center;">
-      <img src="images/img49.png" width="150" style="object-fit: contain;" />
-    </td>
-    <td>
-      <ul>
-        <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-
-<table style="width: 500px; table-layout: auto;">
-  <tr>
-    <td style="width: 150px; overflow: hidden; vertical-align: top;">
-      <img src="images/img49.png" style="width: 100%; height: auto; object-fit: contain;" />
-    </td>
-    <td style="vertical-align: top;">
-      <ul style="padding-left: 20px; text-align: justify;">
         <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
     <li>Publication: MICCAI 2023 </li>
