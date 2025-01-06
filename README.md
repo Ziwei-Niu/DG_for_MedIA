@@ -83,109 +83,28 @@ The goal of randomization-based methods is to generate novel input data by apply
 | <img src="images/img5.png" width="900"> |<li> Title: <a href="https://www.sciencedirect.com/science/article/pii/S0031320323001747">Fourier-based augmentation with applications to domain generalization</a></li> <li>Publication: Pattern Recognition 2023 </li> <li>Summary: Propose a Fourier-based data augmentation strategy called AmpMix by linearly interpolating the amplitudes of two images while keeping their phases unchanged to simulated domain shift. Additionally a consistency training between different augmentation views is incorporated to learn invariant representation. </li> <li> Code: <a href="https://github.com/MediaBrain-SJTU/FACT">https://github.com/MediaBrain-SJTU/FACT</a></li>|
 | <img src="images/img43.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_25">Generalizable Medical Image Segmentation via Random Amplitude Mixup and Domain-Specific Image Restoration</a></li> <li>Publication: ECCV 2022 </li> <li>Summary: Present a continuous frequency space interpolation mechanism for cross-site fundus and prostate segmentation, which exchanges amplitude spectrum (style) to generate new samples while keeping the phase spectrum (semantic) </li> <li> Code: <a href="https://github.com/zzzqzhou/RAM-DSIR">https://github.com/zzzqzhou/RAM-DSIR</a></li>|
 | <img src="images/img7.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9761606">Domain Generalization in Restoration of Cataract Fundus Images Via High-Frequency Components</a></li> <li>Publication: ISBI 2022 </li> <li>Summary: Cataract-like fundus images are randomly synthesized from an identical clear image by adding cataractous blurry. Then, high-frequency components are extracted from the cataract-like images to reduce the domain shift and achieve domain alignment. </li> <li> Code: <a href="https://github.com/HeverLaw/Restoration-of-Cataract-Images-via-Domain-Generalization">https://github.com/HeverLaw/Restoration-of-Cataract-Images-via-Domain-Generalization</a></li>|
-
-
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img8.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space</a></li>
-    <li>Publication: CVPR 2021 </li>
-    <li>Summary: Propose a continuous frequency space interpolation mechanism for federated medical domain generalization, which exchanges amplitude spectrum across clients to transmit the distribution information, while keeping the phase spectrum with core semantics locally for privacy protection. </li>
-    <li><a href="https://github.com/liuquande/FedDG-ELCFS">[Code]</a></li>
-
-  </ul>
-</div>
+| <img src="images/img8.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space</a></li> <li>Publication: CVPR 2021 </li> <li>Summary: Propose a continuous frequency space interpolation mechanism for federated medical domain generalization, which exchanges amplitude spectrum across clients to transmit the distribution information, while keeping the phase spectrum with core semantics locally for privacy protection. </li> <li> Code: <a href="https://github.com/liuquande/FedDG-ELCFS">https://github.com/liuquande/FedDG-ELCFS</a></li>|
 
 
 
 
 **Feature-space**
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img10.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://www.frontiersin.org/articles/10.3389/fcvm.2020.00105/full">Improving the Generalizability of Convolutional Neural Network-Based Segmentation on CMR Images</a></li>
-    <li>Publication: Frontiers in Cardiovascular Medicine 2020 </li>
-    <li>Summary: Propose a simple yet effective way for improving the network generalization ability by carefully designing data normalization and augmentation strategies. </li>
-    <!-- <li><a href="https://github.com/liuquande/FedDG-ELCFS">[Code]</a></li> -->
-
-  </ul>
-</div>
-
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img10.png" width="900"> |<li> Title: <a href="https://www.frontiersin.org/articles/10.3389/fcvm.2020.00105/full">Improving the Generalizability of Convolutional Neural Network-Based Segmentation on CMR Images</a></li> <li>Publication: Frontiers in Cardiovascular Medicine 2020 </li> <li>Summary: Propose a simple yet effective way for improving the network generalization ability by carefully designing data normalization and augmentation strategies. </li>|
 
 
 #### Adversarial-based
 Adversarial-based data augmentation methods are driven by adversarial training, aiming to maximize the diversity of data while simultaneously constraining its reliability.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img11.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9837077">AADG: Automatic Augmentation for Domain Generalization on Retinal Image Segmentation</a></li>
-    <li>Publication: TMI 2022 </li>
-    <li>Summary: Introduce a novel proxy task maximizing the diversity among multiple augmented novel domains as measured by the Sinkhorn distance in a unit sphere space to achieve automated augmentation. Adversarial training and deep reinforcement learning are employed to efficiently search the objectives. </li>
-    <li><a href="https://github.com/CRazorback/AADG">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img12.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_64">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2022 </li>
-    <li>Summary: Synthesize the new domains via learning an adversarial domain synthesizer (ADS), and propose to keep the underlying semantic information between the source image and the synthetic image via a mutual information regularizer. </li>
-    <!-- <li><a href="https://github.com/CRazorback/AADG">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img13.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16443-9_15">MaxStyle: Adversarial Style Composition for Robust Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2022 </li>
-    <li>Summary: Propose a data augmentation framework called MaxStyle, which augments data with improved image style diversity and hardness, by expanding the style space with noise and searching for the worst-case style composition of latent features via adversarial training. </li>
-    <li><a href="https://github.com/cherise215/MaxStyle">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img14.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://arxiv.org/abs/2304.02720">Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation</a></li>
-    <li>Publication: Arxiv 2023 </li>
-    <li>Summary: Propose Adversarial Intensity Attack (AdverIN) that introduce an adversarial attack on the data intensity distribution, which leverages adversarial training to generate training data with an infinite number of styles and increase data diversity while preserving essential content information. </li>
-    <!-- <li><a href="https://github.com/cherise215/MaxStyle">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img15.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tomar_TeSLA_Test-Time_Self-Learning_With_Automatic_Adversarial_Augmentation_CVPR_2023_paper.html">TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation</a></li>
-    <li>Publication: CVPR 2023 </li>
-    <li>Summary: Propose a method that combines knowledge distillation with adversarial-based data augmentation for cross-site medical image segmentation tasks. </li>
-    <li><a href="https://github.com/devavratTomar/TeSLA">[Code]</a></li>
-
-  </ul>
-</div>
-
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img11.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9837077">AADG: Automatic Augmentation for Domain Generalization on Retinal Image Segmentation</a></li> <li>Publication: TMI 2022 </li> <li>Summary: Introduce a novel proxy task maximizing the diversity among multiple augmented novel domains as measured by the Sinkhorn distance in a unit sphere space to achieve automated augmentation. Adversarial training and deep reinforcement learning are employed to efficiently search the objectives. </li> <li> Code: <a href="https://github.com/CRazorback/AADG">https://github.com/CRazorback/AADG</a></li>|
+| <img src="images/img12.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_64">Adversarial Consistency for Single Domain Generalization in Medical Image Segmentation</a></li> <li>Publication: MICCAI 2022 </li> <li>Summary: Synthesize the new domains via learning an adversarial domain synthesizer (ADS), and propose to keep the underlying semantic information between the source image and the synthetic image via a mutual information regularizer. </li>|
+| <img src="images/img13.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16443-9_15">MaxStyle: Adversarial Style Composition for Robust Medical Image Segmentation</a></li> <li>Publication: MICCAI 2022 </li> <li>Summary: Propose a data augmentation framework called MaxStyle, which augments data with improved image style diversity and hardness, by expanding the style space with noise and searching for the worst-case style composition of latent features via adversarial training. </li> <li> Code:<a href="https://github.com/cherise215/MaxStyle">https://github.com/cherise215/MaxStyle</a></li>|
+| <img src="images/img14.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2304.02720">Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: Propose Adversarial Intensity Attack (AdverIN) that introduce an adversarial attack on the data intensity distribution, which leverages adversarial training to generate training data with an infinite number of styles and increase data diversity while preserving essential content information. </li>|
+| <img src="images/img15.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Tomar_TeSLA_Test-Time_Self-Learning_With_Automatic_Adversarial_Augmentation_CVPR_2023_paper.html">TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation</a></li> <li>Publication: CVPR 2023 </li> <li>Summary: Propose a method that combines knowledge distillation with adversarial-based data augmentation for cross-site medical image segmentation tasks. </li> <li> Code:<a href="https://github.com/devavratTomar/TeSLA">https://github.com/devavratTomar/TeSLA</a></li>|
 
 ### Data Generation
 > Data generation is devoted to utilizing generative models such as Variational Autoencoder (VAE), Generative Adversarial Networks (GANs), Diffusion Models and etc., to generate fictional and novel samples. With source domain data becoming more complex, diverse, and informative, the generalization ability can be increased.
