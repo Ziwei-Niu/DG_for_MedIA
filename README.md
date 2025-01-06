@@ -598,40 +598,40 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-<table style="width: 600px; table-layout: fixed; border-collapse: collapse;">
-  <tr>
-    <!-- 图片列：固定尺寸，图片等比例缩放 -->
-    <td style="width: 200px; height: 200px; text-align: center; vertical-align: top;">
-      <img src="images/img50.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <!-- 文字列：宽度固定，高度根据内容自适应 -->
-    <td style="width: 400px; vertical-align: top; word-wrap: break-word; padding: 10px;">
-      <ul style="margin: 0; padding: 0; list-style-position: inside;">
-        <li><strong>Title:</strong> UniverSeg</li>
-        <li><strong>Publication:</strong> ICCV 2023</li>
-        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
-        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
-      </ul>
-    </td>
-  </tr>
+<table style="width: 600px; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+        <!-- 图片列：宽度固定，图片自适应 -->
+        <td style="width: 200px; height: 200px; text-align: center; vertical-align: top; border: 1px solid black;">
+            <img src="images/img50.png" style="width: 100%; height: 100%; object-fit: contain;">
+        </td> 
+        <!-- 文字列：宽度固定，高度自适应 -->
+        <td style="width: 400px; vertical-align: top; word-wrap: break-word; padding: 10px; border: 1px solid black;">
+            <ul style="margin: 0; padding: 0; list-style-position: inside;">
+                <li><strong>Title:</strong> UniverSeg</li>
+                <li><strong>Publication:</strong> ICCV 2023</li>
+                <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks...</li>
+                <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+            </ul>
+        </td>
+    </tr>
 </table>
 
-<table style="width: 600px; table-layout: fixed; border-collapse: collapse;">
-  <tr>
-    <!-- 图片列：固定尺寸，图片等比例缩放 -->
-    <td style="width: 200px; height: 200px; text-align: center; vertical-align: top;">
-      <img src="images/img22.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <!-- 文字列：宽度固定，高度根据内容自适应 -->
-    <td style="width: 400px; vertical-align: top; word-wrap: break-word; padding: 10px;">
-      <ul style="margin: 0; padding: 0; list-style-position: inside;">
-        <li><strong>Title:</strong> UniverSeg</li>
-        <li><strong>Publication:</strong> ICCV 2023</li>
-        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...g is a universal segmentation method for unseen medical segmentation tg is a universal segmentation method for unseen medical segmentation t</li>
-        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
-      </ul>
-    </td>
-  </tr>
+<table style="width: 600px; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+        <!-- 图片列：宽度固定，图片自适应 -->
+        <td style="width: 200px; height: 200px; text-align: center; vertical-align: top; border: 1px solid black;">
+            <img src="images/img22.png" style="width: 100%; height: 100%; object-fit: contain;">
+        </td>
+        <!-- 文字列：宽度固定，高度自适应 -->
+        <td style="width: 400px; vertical-align: top; word-wrap: break-word; padding: 10px; border: 1px solid black;">
+            <ul style="margin: 0; padding: 0; list-style-position: inside;">
+                <li><strong>Title:</strong> UniverSeg</li>
+                <li><strong>Publication:</strong> ICCV 2023</li>
+                <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for univerSeg is a universal segniverSeg is a universal segniverSeg is a universal niverSeg is a universal seg segnseen medical segmentation tasks...</li>
+                <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+            </ul>
+        </td>
+    </tr>
 </table>
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
