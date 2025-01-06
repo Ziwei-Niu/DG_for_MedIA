@@ -611,42 +611,52 @@ Generative models are also effective techniques for traditional feature disentan
 </div>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img49.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img49.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
     <li>Publication: MICCAI 2023 </li>
     <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>
-    <!-- <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li> -->
-  </ul>
-</div>
+    </tr>
+  </table>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img32.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img32.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="http://proceedings.mlr.press/v121/ilse20a.html">DIVA: Domain Invariant Variational Autoencoders</a></li>
     <li>Publication: PLMR 2022 </li>
     <li>Summary: Propose Domain-invariant variational autoencoder (DIVA) for malaria cell image classification, which disentangles the features into domain information, category information, and other information, which is learned in the VAE framework. </li>
-    <li><a href="https://github.com/AMLab-Amsterdam/DIVA">[Code]</a></li>
+      <li>Code: <a href="https://github.com/AMLab-Amsterdam/DIVA">https://github.com/AMLab-Amsterdam/DIVA</a>
+    </tr>
+  </table>
 
-  </ul>
-</div>
+ 
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img33.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img33.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://arxiv.org/abs/2109.05826">Variational Disentanglement for Domain Generalization</a></li>
     <li>Publication: TMLR 2022 </li>
     <li>Summary: Propose a Variational Disentanglement Network (VDN) to classify breast cancer metastases. VDN disentangles domain-invariant and domain-specific features by estimating the information gain and maximizing the posterior probability. </li>
-    <li><a href="https://github.com/AMLab-Amsterdam/DIVA">[Code]</a></li>
-
-  </ul>
-</div>
+    </tr>
+  </table>
 
 ## Model Training Level 
 
@@ -656,186 +666,219 @@ Generative models are also effective techniques for traditional feature disentan
 #### Ensemble Learning
 Ensemble learning is a machine learning technique where multiple models are trained to solve the same problem. For domain generalization, different models can capture domain-specific patterns and representations, so their combination could lead to more robust predictions.
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img35.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img35.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://www.sciencedirect.com/science/article/pii/S0950705123002708">Mixture of calibrated networks for domain generalization in brain tumor segmentation Data</a></li>
     <li>Publication: KBS 2023 </li>
     <li>Summary: Design the mixture of calibrated networks (MCN) for cross-domain brain tumor segmentation, which combines the predictions from multiple models, and each model has unique calibration characteristics to generate diverse and fine-grained segmentation map. </li>
-    <!-- <li><a href="https://github.com/liuquande/MS-Net">[Code]</a></li> -->
-
-  </ul>
-</div>
+    </tr>
+  </table>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img36.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img36.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://www.sciencedirect.com/science/article/pii/S1361841521003571">DeepLesionBrain: Towards a broader deep-learning generalization for multiple sclerosis lesion segmentation</a></li>
     <li>Publication: MedIA 2021 </li>
     <li>Summary: Use a large group of compact 3D CNNs spatially distributed over the brain regions and associate a distinct network with each region of the brain, thereby producing consensus-based segmentation robust to domain shift. </li>
-    <!-- <li><a href="https://github.com/liuquande/MS-Net">[Code]</a></li> -->
-
-  </ul>
-</div>
+    </tr>
+  </table>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img34.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img34.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://ieeexplore.ieee.org/abstract/document/9000851">MS-Net: Multi-Site Network for Improving Prostate Segmentation With Heterogeneous MRI Data</a></li>
     <li>Publication: IEEE TMI 2020 </li>
     <li>Summary: Propose multi-site network (MS-Net) for cross-site prostate segmentation, which consists of a universal network and multiple domain-specific auxiliary branches. The universal network is trained with the supervision of ground truth and transferred multi-site knowledge from auxiliary branches to help explore the general representation. </li>
-    <li><a href="https://github.com/liuquande/MS-Net">[Code]</a></li>
-
-  </ul>
-</div>
+      <li>Code: <a href="https://github.com/liuquande/MS-Net">https://github.com/liuquande/MS-Net</a>
+    </tr>
+  </table>
 
 
 #### Meta Learning
 Meta-learning, also known as learning to learn, is a machine learning method focused on designing algorithms that can generalize knowledge from diverse tasks. In medical domain generalization tasks, it plays a significant role in addressing the challenge of expensive data collecting and annotating, which divide the source domain(s) into meta-train and meta-test sets to simulate domain shift.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img8.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img8.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space</a></li>
     <li>Publication: CVPR 2021 </li>
     <li>Summary: Introduce episodic meta-learning for federated medical image segmentation. During the training process of local models, the raw input serves as the meta-train data, while its counterparts generated from frequency space are used as the meta-test data, helping in learning generalizable model parameters. </li>
-    <li><a href="https://github.com/liuquande/FedDG-ELCFS">[Code]</a></li>
+      <li>Code: <a href="https://github.com/liuquande/FedDG-ELCFS">https://github.com/liuquande/FedDG-ELCFS</a>
+    </tr>
+  </table>
 
-  </ul>
-</div>
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img38.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img38.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+          <li>
     Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">Semi-supervised meta-learning with disentanglement for domain-generalised medical image segmentation</a></li>
     <li>Publication: MICCAI 2021 </li>
     <li>Summary: Present a semi-supervised meta-learning framework for domain generalization in medical image segmentation, which split the labeled and unlabeled source data into meta-train and meta-test sets,  facilitating improved generalization performance of the model. </li>
-    <li><a href="https://github.com/vios-s/DGNet">[Code]</a></li>
+      <li>Code: <a href="https://github.com/vios-s/DGNet">https://github.com/vios-s/DGNet</a>
+    </tr>
+  </table>
 
-  </ul>
-</div>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img37.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img37.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_46">Shape-Aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains</a></li>
     <li>Publication: MICCAI 2020 </li>
     <li>Summary: Propose a shape-aware meta-learning (SAML) scheme for the prostate MRI segmentation, rooted in gradient-based meta-learning. It explicitly simulates domain shift during training by dividing virtual meta-train and meta-test sets. </li>
-    <li><a href="https://github.com/liuquande/SAML">[Code]</a></li>
-
-  </ul>
-</div>
+    <li>Code: <a href="https://github.com/liuquande/SAML">https://github.com/liuquande/SAML</a>
+  </tr>
+</table>
 
 
 #### Self-supervised Learning
 Self-supervised learning is a machine learning method where a model learns general representations from input data without explicit supervision. These representations enhance the model's generalization capability, enabling it to mitigate domain-specific biases. This approach is particularly valuable in scenarios where labeled data is scarce or costly to obtain and annotate, such as in medical imaging.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img39.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+    <tr>
+      <td style="width: 150px; height: 150px; overflow: hidden;">
+        <img src="images/img39.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+      </td>
+      <td valign="top">
+        <ul style="padding-left: 20px;">
+              <li>
     Title: <a href="https://www.nature.com/articles/s41551-023-01049-7">Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging</a></li>
     <li>Publication: Nature Biomedical Engineering 2023 </li>
-    <li>Summary: Propose robust and efficient medical imaging with self-supervision (REMEDIS) for technology, demographic and behavioral domain shifts, which combines large-scale supervised transfer learning on natural images and intermediate contrastive self-supervised learning on medical images and requires minimal task-specific customization. </li>
-    <!-- <li><a href="https://github.com/liuquande/SAML">[Code]</a></li> -->
+          <li style="text-align: justify;"> <!-- 只对Summary这一项应用两端对齐 -->
+            Summary: Propose robust and efficient medical imaging with self-supervision (REMEDIS) for technology, demographic and behavioral domain shifts, which combines large-scale supervised transfer learning on natural images and intermediate contrastive self-supervised learning on medical images and requires minimal task-specific customization.
+          </li>
+    </tr>
+  </table>
 
-  </ul>
-</div>
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img40.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img40.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
     <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_13">Frequency-Mixed Single-Source Domain Generalization for Medical Image Segmentation</a></li>
     <li>Publication: MICCAI 2023 </li>
     <li>Summary: Leverage frequency-based augmentation technique to extend the single-source domain discrepancy and constructed self-supervision in the single domain augmentation to learn robust context-aware representations for the fundus vessels segmentation. </li>
-    <li><a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">[Code]</a></li>
-
-  </ul>
-</div>
+    <li>Code: <a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">https://github.com/liamheng/Non-IID_Medical_Image_Segmentation</a>
+  </tr>
+</table>
 
 
 ### Optimization Strategy
 >Optimization strategies play a crucial role in minimizing overfitting to specific domains, which is achieved by adjusting hyperparameters, selecting appropriate loss functions, regularization techniques, and optimization algorithms.
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img41.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img41.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
     Title: <a href="https://proceedings.neurips.cc/paper/2021/hash/a8f12d9486cbcc2fe0cfc5352011ad35-Abstract.html">Model-Based Domain Generalization</a></li>
     <li>Publication: NeurIPS 2021 </li>
     <li>Summary: Present a model-based domain generalization framework to rigorously reformulate the domain generalization problem as a semi-infinite constrained optimization problem. employed group distributionally robust optimization (GDRO) for the skin lesion classification model. This optimization involves more aggressive regularization, implemented through a hyperparameter to favor fitting smaller groups, and early stopping techniques to enhance generalization performance. </li>
-    <li><a href="https://github.com/arobey1/mbdg">[Code]</a></li>
+    <li>Code: <a href="https://github.com/arobey1/mbdg">https://github.com/arobey1/mbdg</a>
+  </tr>
+</table>
 
-  </ul>
-</div>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img42.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img42.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43901-8_68">DOMINO++: Domain-Aware Loss Regularization for Deep Learning Generalizability</a></li>
     <li>Publication: MICCAI 2023 </li>
     <li>Summary: Introduce an adaptable regularization framework to calibrate intracranial MRI segmentation models based on expert-guided and data-guided knowledge. The strengths of this regularization lie in its ability to take advantage of the benefits of both the semantic confusability derived from domain knowledge and data distribution. </li>
-    <!-- <li><a href="https://github.com/arobey1/mbdg">[Code]</a></li> -->
+  </tr>
+</table>
 
-  </ul>
-</div>
 
 ## Model Test Level
 ### Test-time Adaptation
-<div style="display: flex; align-items: center;">
-  <img src="images/img52.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img52.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
     Title: <a href="https://ieeexplore.ieee.org/abstract/document/10816643">UniAda: Domain Unifying and Adapting Network for Generalizable Medical Image Segmentation</a></li>
     <li>Publication: IEEE TMI 2024 </li>
     <li>Summary: Propose a domain Unifying and Adapting network (UniAda) with DFU and UTTA module for generalizable medical image segmentation, a novel "unifying while training, adapting while testing" paradigm that can learn a domain-aware base model during training and dynamically adapt it to unseen target domains during testing. The DFU module unifies multi-source domains into a global inter-source domain through a novel feature statistics update mechanism, capable of sampling new features for previously unseen domains, thus enhancing the training of a domain-aware base model. The UTTA module leverages an uncertainty map to guide the adaptation of the trained model for each testing sample, considering the possibility that the specific target domain may fall outside the global inter-source domain. </li>
-    <li><a href="https://github.com/ZhouZhang233/UniAda">[Code]</a></li>
-
-  </ul>
-</div>
+    <li>Code: <a href="https://github.com/ZhouZhang233/UniAda">https://github.com/ZhouZhang233/UniAda</a>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 ## Universal Foundation Model
 
 ### Interactive Segmentation
-<div style="display: flex; align-items: center;">
-  <img src="images/img51.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
+
+
+<table>
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img51.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
     Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li>
     <li>Publication: Nature Communications 2024 </li>
     <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li>
-    <li><a href="https://github.com/bowang-lab/MedSAM">[Code]</a></li>
+    <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>
+  </tr>
+</table>
 
-  </ul>
-</div>
 
 ### Few-shot Segmentation
-<div style="display: flex; align-items: center;">
-  <img src="images/img50.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li>
-    <li>Publication: ICCV 2023 </li>
-    <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities. </li>
-    <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
-
-  </ul>
-</div>
 
 <table>
   <tr>
@@ -843,12 +886,13 @@ Self-supervised learning is a machine learning method where a model learns gener
       <img src="images/img50.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
     </td>
     <td valign="top">
-      <p><li>
-    Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li>
-    <li>Publication: ICCV 2023 </li>
-    <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities. </li>
-    <li><a href="https://universeg.csail.mit.edu">[Code]</a></li></p>
-    </td>
+      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
+        <li>
+          Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
+        </li>
+        <li>Publication: ICCV 2023</li>
+        <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li>
+        <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>
   </tr>
 </table>
 
