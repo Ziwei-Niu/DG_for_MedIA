@@ -626,89 +626,19 @@ Ensemble learning is a machine learning technique where multiple models are trai
 #### Meta Learning
 Meta-learning, also known as learning to learn, is a machine learning method focused on designing algorithms that can generalize knowledge from diverse tasks. In medical domain generalization tasks, it plays a significant role in addressing the challenge of expensive data collecting and annotating, which divide the source domain(s) into meta-train and meta-test sets to simulate domain shift.
 
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img8.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space</a></li>
-    <li>Publication: CVPR 2021 </li>
-    <li>Summary: Introduce episodic meta-learning for federated medical image segmentation. During the training process of local models, the raw input serves as the meta-train data, while its counterparts generated from frequency space are used as the meta-test data, helping in learning generalizable model parameters. </li>
-      <li>Code: <a href="https://github.com/liuquande/FedDG-ELCFS">https://github.com/liuquande/FedDG-ELCFS</a>
-    </tr>
-  </table>
-
-
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img38.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">Semi-supervised meta-learning with disentanglement for domain-generalised medical image segmentation</a></li>
-    <li>Publication: MICCAI 2021 </li>
-    <li>Summary: Present a semi-supervised meta-learning framework for domain generalization in medical image segmentation, which split the labeled and unlabeled source data into meta-train and meta-test sets,  facilitating improved generalization performance of the model. </li>
-      <li>Code: <a href="https://github.com/vios-s/DGNet">https://github.com/vios-s/DGNet</a>
-    </tr>
-  </table>
-
-
-
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img37.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_46">Shape-Aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains</a></li>
-    <li>Publication: MICCAI 2020 </li>
-    <li>Summary: Propose a shape-aware meta-learning (SAML) scheme for the prostate MRI segmentation, rooted in gradient-based meta-learning. It explicitly simulates domain shift during training by dividing virtual meta-train and meta-test sets. </li>
-    <li>Code: <a href="https://github.com/liuquande/SAML">https://github.com/liuquande/SAML</a>
-  </tr>
-</table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img38.png" width="900"> | <li>Title: <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.html">FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space</a></li> <li>Publication: CVPR 2021 </li> <li>Summary: Introduce episodic meta-learning for federated medical image segmentation. During the training process of local models, the raw input serves as the meta-train data, while its counterparts generated from frequency space are used as the meta-test data, helping in learning generalizable model parameters. </li> <li>Code: <a href="https://github.com/liuquande/FedDG-ELCFS">https://github.com/liuquande/FedDG-ELCFS</a>|
+| <img src="images/img37.png" width="900"> | <li>    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_46">Shape-Aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains</a></li> <li>Publication: MICCAI 2020 </li> <li>Summary: Propose a shape-aware meta-learning (SAML) scheme for the prostate MRI segmentation, rooted in gradient-based meta-learning. It explicitly simulates domain shift during training by dividing virtual meta-train and meta-test sets. </li> <li>Code: <a href="https://github.com/liuquande/SAML">https://github.com/liuquande/SAML</a>|
 
 
 #### Self-supervised Learning
 Self-supervised learning is a machine learning method where a model learns general representations from input data without explicit supervision. These representations enhance the model's generalization capability, enabling it to mitigate domain-specific biases. This approach is particularly valuable in scenarios where labeled data is scarce or costly to obtain and annotate, such as in medical imaging.
 
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img39.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px;">
-              <li>
-    Title: <a href="https://www.nature.com/articles/s41551-023-01049-7">Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging</a></li>
-    <li>Publication: Nature Biomedical Engineering 2023 </li>
-          <li style="text-align: justify;"> <!-- 只对Summary这一项应用两端对齐 -->
-            Summary: Propose robust and efficient medical imaging with self-supervision (REMEDIS) for technology, demographic and behavioral domain shifts, which combines large-scale supervised transfer learning on natural images and intermediate contrastive self-supervised learning on medical images and requires minimal task-specific customization.
-          </li>
-    </tr>
-  </table>
-
-
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img40.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_13">Frequency-Mixed Single-Source Domain Generalization for Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Leverage frequency-based augmentation technique to extend the single-source domain discrepancy and constructed self-supervision in the single domain augmentation to learn robust context-aware representations for the fundus vessels segmentation. </li>
-    <li>Code: <a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">https://github.com/liamheng/Non-IID_Medical_Image_Segmentation</a>
-  </tr>
-</table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img39.png" width="900"> | <li>Title: <a href="https://www.nature.com/articles/s41551-023-01049-7">Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging</a></li> <li>Publication: Nature Biomedical Engineering 2023 </li> <li> Summary: Propose robust and efficient medical imaging with self-supervision (REMEDIS) for technology, demographic and behavioral domain shifts, which combines large-scale supervised transfer learning on natural images and intermediate contrastive self-supervised learning on medical images and requires minimal task-specific customization.</li>|
+| <img src="images/img40.png" width="900"> | <li>    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_13">Frequency-Mixed Single-Source Domain Generalization for Medical Image Segmentation</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Leverage frequency-based augmentation technique to extend the single-source domain discrepancy and constructed self-supervision in the single domain augmentation to learn robust context-aware representations for the fundus vessels segmentation. </li> <li>Code: <a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">https://github.com/liamheng/Non-IID_Medical_Image_Segmentation</a>|
 
 
 ### Optimization Strategy
