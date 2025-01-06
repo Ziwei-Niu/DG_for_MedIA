@@ -600,73 +600,12 @@ Generative models are also effective techniques for traditional feature disentan
 
 | Image | Description |
 |:-----------------:|:------------|
-| <img src="images/img31.png" width="800"> | <li>Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>   <li>Publication: ICLR 2023 </li> <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>|
-| <img src="images/img49.png" width="800"> | <li>Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>|
-
-<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
-    <tr>
-      <td style="width: 200px; vertical-align: top; overflow: hidden;">
-        <img src="images/img31.png" style="width: 150px; height: auto;" />
-      </td>
-      <td style="vertical-align: top; white-space: normal;">
-        <ul>
-          <li>
-    Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>
-    <li>Publication: ICLR 2023 </li>
-    <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<!-- ICLR 2023 -->| <img src="images/img31.png" width="900"> | <li>Title: <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">Learning domain-agnostic representation for disease diagnosiss</a></li>   <li>Publication: ICLR 2023 </li> <li>Summary: Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer. </li>|
+<!-- MICCAI 2023 -->| <img src="images/img49.png" width="900"> | <li>Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>|
+<!-- PLMR 2022 -->|<img src="images/img32.png" width="900"> |<li>Title: <a href="http://proceedings.mlr.press/v121/ilse20a.html">DIVA: Domain Invariant Variational Autoencoders</a></li> <li>Publication: PLMR 2022 </li> <li>Summary: Propose Domain-invariant variational autoencoder (DIVA) for malaria cell image classification, which disentangles the features into domain information, category information, and other information, which is learned in the VAE framework. </li> <li>Code: <a href="https://github.com/AMLab-Amsterdam/DIVA">https://github.com/AMLab-Amsterdam/DIVA</a>|
+<!-- TMLR 2022 -->|<img src="images/img33.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2109.05826">Variational Disentanglement for Domain Generalization</a></li> <li>Publication: TMLR 2022 </li> <li>Summary: Propose a Variational Disentanglement Network (VDN) to classify breast cancer metastases. VDN disentangles domain-invariant and domain-specific features by estimating the information gain and maximizing the posterior probability. </li>|
 
 
-<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
-  <tr>
-    <td style="width: 200px; vertical-align: top; overflow: hidden;">
-      <img src="images/img49.png" style="width: 150px; height: auto;" />
-    </td>
-    <td style="vertical-align: top; white-space: normal;">
-      <ul>
-        <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img32.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="http://proceedings.mlr.press/v121/ilse20a.html">DIVA: Domain Invariant Variational Autoencoders</a></li>
-    <li>Publication: PLMR 2022 </li>
-    <li>Summary: Propose Domain-invariant variational autoencoder (DIVA) for malaria cell image classification, which disentangles the features into domain information, category information, and other information, which is learned in the VAE framework. </li>
-      <li>Code: <a href="https://github.com/AMLab-Amsterdam/DIVA">https://github.com/AMLab-Amsterdam/DIVA</a>
-    </tr>
-  </table>
-
- 
-
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img33.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
-    Title: <a href="https://arxiv.org/abs/2109.05826">Variational Disentanglement for Domain Generalization</a></li>
-    <li>Publication: TMLR 2022 </li>
-    <li>Summary: Propose a Variational Disentanglement Network (VDN) to classify breast cancer metastases. VDN disentangles domain-invariant and domain-specific features by estimating the information gain and maximizing the posterior probability. </li>
-    </tr>
-  </table>
 
 ## Model Training Level 
 
