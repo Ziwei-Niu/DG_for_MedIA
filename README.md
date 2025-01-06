@@ -598,13 +598,13 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-<table>
+<table style="width: 600px; border-collapse: collapse; border: 1px solid black;">
     <tr>
-        <!-- 图片列：宽高固定 -->
-        <td style="width: 200px; height: 200px; padding: 10px; border: 1px solid black;">
-            <img src="images/img50.png" width="200" height="200" style="object-fit: contain;">
+        <!-- 图片列：固定宽度，高度自适应 -->
+        <td style="width: 200px; padding: 10px; border: 1px solid black; text-align: center;">
+            <img src="images/img50.png" style="width: 100%; height: auto; object-fit: contain;">
         </td>
-        <!-- 文字列：宽度固定，高度自适应 -->
+        <!-- 文字列：固定宽度，高度自适应 -->
         <td style="width: 400px; padding: 10px; border: 1px solid black; vertical-align: top;">
             <ul style="margin: 0; padding: 0; list-style-position: inside;">
                 <li><strong>Title:</strong> UniverSeg</li>
@@ -616,18 +616,18 @@ Generative models are also effective techniques for traditional feature disentan
     </tr>
 </table>
 
-<table>
+<table style="width: 600px; border-collapse: collapse; border: 1px solid black;">
     <tr>
-        <!-- 图片列：宽高固定 -->
-        <td style="width: 200px; height: 200px; padding: 10px; border: 1px solid black;">
-            <img src="images/img22.png" width="200" height="200" style="object-fit: contain;">
-        </td>       
-        <!-- 文字列：宽度固定，高度自适应 -->
+        <!-- 图片列：固定宽度，高度自适应 -->
+        <td style="width: 200px; padding: 10px; border: 1px solid black; text-align: center;">
+            <img src="images/img22.png" style="width: 100%; height: auto; object-fit: contain;">
+        </td>
+        <!-- 文字列：固定宽度，高度自适应 -->
         <td style="width: 400px; padding: 10px; border: 1px solid black; vertical-align: top;">
             <ul style="margin: 0; padding: 0; list-style-position: inside;">
                 <li><strong>Title:</strong> UniverSeg</li>
                 <li><strong>Publication:</strong> ICCV 2023</li>
-                <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks.UniverSeg is a universal segmentation method for unseen medical segmentation tasks.UniverSeg is a universal segmentation method for unseen medical segmentation tasks.</li>
+                <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks.UniverSeg is a universal segmentation method for unseen medical segmentation tasksUniverSeg is a universal segmentation method for unseen medical segmentation tasks..</li>
                 <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
             </ul>
         </td>
