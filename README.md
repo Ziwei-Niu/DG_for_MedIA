@@ -611,12 +611,12 @@ Generative models are also effective techniques for traditional feature disentan
 </div>
 
 
-<table style="table-layout: fixed; width: 500px;">
+<table style="width: 500px; table-layout: auto;">
   <tr>
-    <td style="width: 150px; height: auto; overflow: hidden;">
+    <td style="width: 150px; overflow: hidden; vertical-align: top;">
       <img src="images/img50.png" style="width: 100%; height: auto; object-fit: contain;" />
     </td>
-    <td valign="top">
+    <td style="vertical-align: top;">
       <ul style="padding-left: 20px; text-align: justify;">
         <li>
           Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
@@ -629,17 +629,20 @@ Generative models are also effective techniques for traditional feature disentan
   </tr>
 </table>
 
-<table style="table-layout: fixed; width: 500px;">
+
+<table style="width: 500px; table-layout: auto;">
   <tr>
-    <td style="width: 150px; height: auto; overflow: hidden;">
+    <td style="width: 150px; overflow: hidden; vertical-align: top;">
       <img src="images/img49.png" style="width: 100%; height: auto; object-fit: contain;" />
     </td>
-    <td valign="top">
+    <td style="vertical-align: top;">
       <ul style="padding-left: 20px; text-align: justify;">
         <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
     <li>Publication: MICCAI 2023 </li>
     <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>
+      </ul>
+    </td>
   </tr>
 </table>
 
