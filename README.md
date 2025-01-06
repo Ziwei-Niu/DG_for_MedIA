@@ -600,8 +600,8 @@ Generative models are also effective techniques for traditional feature disentan
 
 | Image | Description |
 |:-----:|:------------|
-| <img src="images/img33.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
-| <img src="images/img50.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional trainingUniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training|
+| <img src="images/img33.png" width="300"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
+| <img src="images/img50.png" width="300"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional trainingUniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training|
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse; border: 1px solid black;">
     <tr>
