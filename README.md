@@ -55,155 +55,36 @@
 #### Normalization-based
 Normalization-based methods aims to normalize the raw intensity values or statistics to reduce the impact of variations in image intensity across different domains. Specifically, these methods are usually employed for specific tasks, such as pathological images testtest.
 
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img44.png" width="900"> |<li> Title: <a href="https://www.sciencedirect.com/science/article/pii/S0957417423036096">Generative models for color normalization in digital pathology and dermatology: Advancing the learning paradigm</a></li> <li>Publication: Expert Systems with Applications 2024 </li> <li>Summary: Formulate the color normalization task as an image-to-image translation problem, ensuring a pixel-to-pixel correspondence between the original and normalized images. </li>|
+| <img src="images/img1.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">Improved Domain Generalization for Cell Detection in Histopathology Images via Test-Time Stain Augmentation</a></li> <li>Publication: MICCAI 2022 </li> <li>Summary: Propose a test-time stain normalization method for cell detection in histopathology images, which transforms the test images by mixing their stain color with that of the source domain, so that the mixed images may better resemble the source images or their stain-transformed versions used for training. </li>|
+| <img src="images/img2.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-33658-4_22">Tackling Mitosis Domain Generalization in Histopathology Images with Color Normalization</a></li> <li>Publication: MICCAI Challenge 2022 </li> <li>Summary: Employ a color normalization method in their architecture for mitosis detection in histopathology images. </li>|
+| <img src="images/img3.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_42">Improve Unseen Domain Generalization via Enhanced Local Color Transformation</a></li> <li>Publication: MICCAI 2020 </li> <li>Summary: Propose Enhanced Domain Transformation (EDT) for diabetic retinopathy classification, which aims to project the images into a color space that aligns the distribution of source data and unseen target data. </li>|
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img44.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li> Title: <a href="https://www.sciencedirect.com/science/article/pii/S0957417423036096">Generative models for color normalization in digital pathology and dermatology: Advancing the learning paradigm</a></li>
-    <li>Publication: Expert Systems with Applications 2024 </li>
-    <li>Summary: Formulate the color normalization task as an image-to-image translation problem, ensuring a pixel-to-pixel correspondence between the original and normalized images. </li>
-    <!-- <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img1.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">Improved Domain Generalization for Cell Detection in Histopathology Images via Test-Time Stain Augmentation</a></li>
-    <li>Publication: MICCAI 2022 </li>
-    <li>Summary: Propose a test-time stain normalization method for cell detection in histopathology images, which transforms the test images by mixing their stain color with that of the source domain, so that the mixed images may better resemble the source images or their stain-transformed versions used for training. </li>
-    <!-- <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img2.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-33658-4_22">Tackling Mitosis Domain Generalization in Histopathology Images with Color Normalization</a></li>
-    <li>Publication: MICCAI Challenge 2022 </li>
-    <li>Summary: Employ a color normalization method in their architecture for mitosis detection in histopathology images. </li>
-    <!-- <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">[Code]</a></li> -->
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img3.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_42">Improve Unseen Domain Generalization via Enhanced Local Color Transformation</a></li>
-    <li>Publication: MICCAI 2020 </li>
-    <li>Summary: Propose Enhanced Domain Transformation (EDT) for diabetic retinopathy classification, which aims to project the images into a color space that aligns the distribution of source data and unseen target data. </li>
-    <!-- <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_15">[Code]</a></li> -->
-
-  </ul>
-</div>
 
 #### Randomization-based
 The goal of randomization-based methods is to generate novel input data by applying random transformations to the image-space, frequency-space and feature space.
 
 **Image-space**
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img4.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_42">Rethinking Data Augmentation for Single-Source Domain Generalization in Medical Image Segmentation</a></li>
-    <li>Publication: AAAI 2023 </li>
-    <li>Summary: Rethink the data augmentation strategy for DG in medical image segmentation and propose a location-scale augmentation strategy, which performs constrained Bezier transformation on both global and local (i.e. class-level) regions to enrich the informativeness and diversity of augmented. </li>
-    <li><a href="https://github.com/Kaiseem/SLAug">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img6.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Generalizable_Cross-Modality_Medical_Image_Segmentation_via_Style_Augmentation_and_Dual_CVPR_2022_paper.html">Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization</a></li>
-    <li>Publication: CVPR 2022 </li>
-    <li>Summary: Employ Bezier Curves to augment single source domain into different styles and split them into source-similar domain and source-dissimilar domain. </li>
-    <li><a href="https://github.com/zzzqzhou/Dual-Normalization">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img9.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/8995481">Generalizing Deep Learning for Medical Image Segmentation to Unseen Domains via Deep Stacked Transformation</a></li>
-    <li>Publication: IEEE TMI 2020 </li>
-    <li>Summary: Propose a deep stacked transformation approach by applying extensive random typical transformations on a single source domain to simulate the domain shift. </li>
-    <!-- <li><a href="https://github.com/liuquande/FedDG-ELCFS">[Code]</a></li> -->
-
-  </ul>
-</div>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img4.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-030-59713-9_42">Rethinking Data Augmentation for Single-Source Domain Generalization in Medical Image Segmentation</a></li> <li>Publication: AAAI 2023 </li> <li>Summary: Rethink the data augmentation strategy for DG in medical image segmentation and propose a location-scale augmentation strategy, which performs constrained Bezier transformation on both global and local (i.e. class-level) regions to enrich the informativeness and diversity of augmented. </li> <li> Code: <a href="https://github.com/Kaiseem/SLAug">https://github.com/Kaiseem/SLAug</a></li>|
+| <img src="images/img6.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Generalizable_Cross-Modality_Medical_Image_Segmentation_via_Style_Augmentation_and_Dual_CVPR_2022_paper.html">Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Employ Bezier Curves to augment single source domain into different styles and split them into source-similar domain and source-dissimilar domain. </li> <li> Code: <a href="https://github.com/zzzqzhou/Dual-Normalization">https://github.com/zzzqzhou/Dual-Normalization</a></li>|
+| <img src="images/img9.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/8995481">Generalizing Deep Learning for Medical Image Segmentation to Unseen Domains via Deep Stacked Transformation</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Propose a deep stacked transformation approach by applying extensive random typical transformations on a single source domain to simulate the domain shift. </li>|
 
 
 **Frequency-space**
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img40.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_13">Frequency-Mixed Single-Source Domain Generalization for Medical Image Segmentation</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Present FMAug that extends the domain margin by mixing patches from diverse frequency views. </li>
-    <li><a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">[Code]</a></li>
-
-  </ul>
-</div>
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img5.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://www.sciencedirect.com/science/article/pii/S0031320323001747">Fourier-based augmentation with applications to domain generalization</a></li>
-    <li>Publication: Pattern Recognition 2023 </li>
-    <li>Summary: Propose a Fourier-based data augmentation strategy called AmpMix by linearly interpolating the amplitudes of two images while keeping their phases unchanged to simulated domain shift. Additionally a consistency training between different augmentation views is incorporated to learn invariant representation. </li>
-    <li><a href="https://github.com/MediaBrain-SJTU/FACT">[Code]</a></li>
-
-  </ul>
-</div>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img40.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_13">Frequency-Mixed Single-Source Domain Generalization for Medical Image Segmentation</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Present FMAug that extends the domain margin by mixing patches from diverse frequency views. </li>    <li> Code: <a href="https://github.com/liamheng/Non-IID_Medical_Image_Segmentation">https://github.com/liamheng/Non-IID_Medical_Image_Segmentation</a></li>|
+| <img src="images/img5.png" width="900"> |<li> Title: <a href="https://www.sciencedirect.com/science/article/pii/S0031320323001747">Fourier-based augmentation with applications to domain generalization</a></li> <li>Publication: Pattern Recognition 2023 </li> <li>Summary: Propose a Fourier-based data augmentation strategy called AmpMix by linearly interpolating the amplitudes of two images while keeping their phases unchanged to simulated domain shift. Additionally a consistency training between different augmentation views is incorporated to learn invariant representation. </li> <li> Code: <a href="https://github.com/MediaBrain-SJTU/FACT">https://github.com/MediaBrain-SJTU/FACT</a></li>|
+| <img src="images/img43.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_25">Generalizable Medical Image Segmentation via Random Amplitude Mixup and Domain-Specific Image Restoration</a></li> <li>Publication: ECCV 2022 </li> <li>Summary: Present a continuous frequency space interpolation mechanism for cross-site fundus and prostate segmentation, which exchanges amplitude spectrum (style) to generate new samples while keeping the phase spectrum (semantic) </li> <li> Code: <a href="https://github.com/zzzqzhou/RAM-DSIR">https://github.com/zzzqzhou/RAM-DSIR</a></li>|
+| <img src="images/img7.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9761606">Domain Generalization in Restoration of Cataract Fundus Images Via High-Frequency Components</a></li> <li>Publication: ISBI 2022 </li> <li>Summary: Cataract-like fundus images are randomly synthesized from an identical clear image by adding cataractous blurry. Then, high-frequency components are extracted from the cataract-like images to reduce the domain shift and achieve domain alignment. </li> <li> Code: <a href="https://github.com/HeverLaw/Restoration-of-Cataract-Images-via-Domain-Generalization">https://github.com/HeverLaw/Restoration-of-Cataract-Images-via-Domain-Generalization</a></li>|
 
 
-<div style="display: flex; align-items: center;">
-  <img src="images/img43.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_25">Generalizable Medical Image Segmentation via Random Amplitude Mixup and Domain-Specific Image Restoration</a></li>
-    <li>Publication: ECCV 2022 </li>
-    <li>Summary: Present a continuous frequency space interpolation mechanism for cross-site fundus and prostate segmentation, which exchanges amplitude spectrum (style) to generate new samples while keeping the phase spectrum (semantic) </li>
-    <li><a href="https://github.com/zzzqzhou/RAM-DSIR">[Code]</a></li>
-
-  </ul>
-</div>
-
-
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/img7.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/9761606">Domain Generalization in Restoration of Cataract Fundus Images Via High-Frequency Components</a></li>
-    <li>Publication: ISBI 2022 </li>
-    <li>Summary: Cataract-like fundus images are randomly synthesized from an identical clear image by adding cataractous blurry. Then, high-frequency components are extracted from the cataract-like images to reduce the domain shift and achieve domain alignment. </li>
-    <li><a href="https://github.com/HeverLaw/Restoration-of-Cataract-Images-via-Domain-Generalization">[Code]</a></li>
-
-  </ul>
-</div>
 
 
 
