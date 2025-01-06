@@ -794,6 +794,20 @@ Self-supervised learning is a machine learning method where a model learns gener
   </ul>
 </div>
 
+## Model Test Level
+### Test-time Adaptation
+<div style="display: flex; align-items: center;">
+  <img src="images/img52.png" alt="" style="width: 200px; margin-right: 10px; margin-left: 10px;"/>
+  <ul style="list-style-type: disc; padding-left: 20px;">
+    <li>
+    Title: <a href="https://ieeexplore.ieee.org/abstract/document/10816643">UniAda: Domain Unifying and Adapting Network for Generalizable Medical Image Segmentation</a></li>
+    <li>Publication: IEEE TMI 2024 </li>
+    <li>Summary: Propose a domain Unifying and Adapting network (UniAda) with DFU and UTTA module for generalizable medical image segmentation, a novel "unifying while training, adapting while testing" paradigm that can learn a domain-aware base model during training and dynamically adapt it to unseen target domains during testing. The DFU module unifies multi-source domains into a global inter-source domain through a novel feature statistics update mechanism, capable of sampling new features for previously unseen domains, thus enhancing the training of a domain-aware base model. The UTTA module leverages an uncertainty map to guide the adaptation of the trained model for each testing sample, considering the possibility that the specific target domain may fall outside the global inter-source domain. </li>
+    <li><a href="https://github.com/ZhouZhang233/UniAda">[Code]</a></li>
+
+  </ul>
+</div>
+
 
 ## Universal Foundation Model
 
@@ -804,7 +818,7 @@ Self-supervised learning is a machine learning method where a model learns gener
     <li>
     Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li>
     <li>Publication: Nature Communications 2024 </li>
-    <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types.. </li>
+    <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li>
     <li><a href="https://github.com/bowang-lab/MedSAM">[Code]</a></li>
 
   </ul>
