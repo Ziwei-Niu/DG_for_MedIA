@@ -611,20 +611,37 @@ Generative models are also effective techniques for traditional feature disentan
 </div>
 
 
-<table>
-    <tr>
-      <td style="width: 150px; height: 150px; overflow: hidden;">
-        <img src="images/img49.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-      </td>
-      <td valign="top">
-        <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-          <li>
+<table style="table-layout: fixed; width: 500px;">
+  <tr>
+    <td style="width: 150px; height: auto; overflow: hidden;">
+      <img src="images/img50.png" style="width: 100%; height: auto; object-fit: contain;" />
+    </td>
+    <td valign="top">
+      <ul style="padding-left: 20px; text-align: justify;">
+        <li>
+          Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
+        </li>
+        <li>Publication: ICCV 2023</li>
+        <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li>
+        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table style="table-layout: fixed; width: 500px; height: 150px;">
+  <tr>
+    <td style="width: 150px; height: 150px; overflow: hidden;">
+      <img src="images/img49.png" style="width: 100%; height: 100%; object-fit: contain;" />
+    </td>
+    <td valign="top" style="width: 350px;">
+      <ul style="padding-left: 20px; text-align: justify;">
+        <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
     <li>Publication: MICCAI 2023 </li>
     <li>Summary: Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles. </li>
-    </tr>
-  </table>
-
+  </tr>
+</table>
 
 
 <table>
