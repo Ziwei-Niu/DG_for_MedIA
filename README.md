@@ -611,10 +611,10 @@ Generative models are also effective techniques for traditional feature disentan
 </div>
 
 
-<table style="width: 500px; table-layout: fixed;">
+<table style="width: 500px;">
   <tr>
-    <td style="width: 150px;">
-      <img src="images/img50.png" width="150" />
+    <td style="width: 150px; text-align: center;">
+      <img src="images/img50.png" width="150" style="object-fit: contain;" />
     </td>
     <td>
       <ul>
@@ -629,10 +629,10 @@ Generative models are also effective techniques for traditional feature disentan
   </tr>
 </table>
 
-<table style="width: 500px; table-layout: fixed;">
+<table style="width: 500px;">
   <tr>
-    <td style="width: 150px;">
-      <img src="images/img49.png" width="150" />
+    <td style="width: 150px; text-align: center;">
+      <img src="images/img49.png" width="150" style="object-fit: contain;" />
     </td>
     <td>
       <ul>
@@ -644,6 +644,7 @@ Generative models are also effective techniques for traditional feature disentan
     </td>
   </tr>
 </table>
+
 
 
 <table style="width: 500px; table-layout: auto;">
