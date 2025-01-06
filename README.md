@@ -33,6 +33,8 @@
       - [Meta Learning](#meta-learning)
       - [Self-supervised Learning](#self-supervised-learning)
     - [Optimization Strategy](#optimization-strategy)
+  - [Model Test Level](#model-test-level)
+    - Test-time Adaptation(#test-time-adaptation)
   - [Universal Foundation Model](#universal-foundation-model)
     - [Interactive Segmentation](#interactive-segmentation)
     - [Few-shot Segmentation](#few-shot-segmentation)
