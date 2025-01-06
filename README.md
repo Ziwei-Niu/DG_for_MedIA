@@ -598,13 +598,55 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-| Image | Description |
-|:-----:|------------|
-| <img src="images/img50.png" width="200" height="200"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks... |
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+        <!-- 图片列：固定宽度200px -->
+        <td style="width: 200px; vertical-align: top; text-align: center; border: 1px solid black;">
+            <img src="images/img31.png" style="width: 150px; height: auto; object-fit: contain;" />
+        </td>
+        <!-- 文字列：固定宽度300px，高度自适应 -->
+        <td style="width: 300px; vertical-align: top; border: 1px solid black; word-wrap: break-word;">
+            <ul style="padding: 0; margin: 0; list-style-position: inside;">
+                <li>
+                    <strong>Title:</strong> 
+                    <a href="https://www.researchgate.net/profile/Yizhou-Yu-2/publication/372230975_LEARNING_DOMAIN-AGNOSTIC_REPRESENTATION_FOR_DISEASE_DIAGNOSIS/links/64aacef58de7ed28ba8841c2/LEARNING-DOMAIN-AGNOSTIC-REPRESENTATION-FOR-DISEASE-DIAGNOSIS.pdf">
+                        Learning domain-agnostic representation for disease diagnosis
+                    </a>
+                </li>
+                <li><strong>Publication:</strong> ICLR 2023</li>
+                <li>
+                    <strong>Summary:</strong> Leverage structural causal modeling to explicitly model disease-related and center-effects. Guided by this, propose a novel Domain Agnostic Representation Model (DarMo) based on variational Auto-Encoder and design domain-agnostic and domain-aware encoders to respectively capture disease-related features and varied center effects by incorporating a domain-aware batch normalization layer.
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
 
-| Image | Description |
-|:-----:|------------|
-| <img src="images/img50.png" width="200" height="200"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks..UniverSeg is a universal segmentation method for unseen medical segmentation tasksUniverSeg is a universal segmentation method for unseen medical segmentation tasks. |
+<br>
+
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+        <!-- 图片列：固定宽度200px -->
+        <td style="width: 200px; vertical-align: top; text-align: center; border: 1px solid black;">
+            <img src="images/img49.png" style="width: 150px; height: auto; object-fit: contain;" />
+        </td>
+        <!-- 文字列：固定宽度300px，高度自适应 -->
+        <td style="width: 300px; vertical-align: top; border: 1px solid black; word-wrap: break-word;">
+            <ul style="padding: 0; margin: 0; list-style-position: inside;">
+                <li>
+                    <strong>Title:</strong> 
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">
+                        DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation
+                    </a>
+                </li>
+                <li><strong>Publication:</strong> MICCAI 2023</li>
+                <li>
+                    <strong>Summary:</strong> Combine vision transformer architectures with style-based generators for cross-site medical segmentation. It learned domain-invariant representations by swapping domain-specific features, facilitating the disentanglement of content and styles.
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
     <tr>
