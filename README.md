@@ -611,19 +611,31 @@ Generative models are also effective techniques for traditional feature disentan
 </div>
 
 
-<table style="width: 500px;">
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
   <tr>
-    <td style="width: 150px; text-align: center;">
-      <img src="images/img50.png" width="150" style="object-fit: contain;" />
+    <td style="width: 150px; vertical-align: top; overflow: hidden;">
+      <img src="images/img50.png" style="width: 150px; height: auto;" />
     </td>
-    <td>
+    <td style="vertical-align: top; white-space: normal;">
       <ul>
-        <li>
-          Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
-        </li>
-        <li>Publication: ICCV 2023</li>
-        <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li>
-        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <td style="width: 150px; vertical-align: top; overflow: hidden;">
+      <img src="images/img49.png" style="width: 150px; height: auto;" />
+    </td>
+    <td style="vertical-align: top; white-space: normal;">
+      <ul>
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
       </ul>
     </td>
   </tr>
