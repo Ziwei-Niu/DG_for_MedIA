@@ -644,98 +644,35 @@ Self-supervised learning is a machine learning method where a model learns gener
 ### Optimization Strategy
 >Optimization strategies play a crucial role in minimizing overfitting to specific domains, which is achieved by adjusting hyperparameters, selecting appropriate loss functions, regularization techniques, and optimization algorithms.
 
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img41.png" width="900"> | <li>  Title: <a href="https://proceedings.neurips.cc/paper/2021/hash/a8f12d9486cbcc2fe0cfc5352011ad35-Abstract.html">Model-Based Domain Generalization</a></li> <li>Publication: NeurIPS 2021 </li> <li>Summary: Present a model-based domain generalization framework to rigorously reformulate the domain generalization problem as a semi-infinite constrained optimization problem. employed group distributionally robust optimization (GDRO) for the skin lesion classification model. This optimization involves more aggressive regularization, implemented through a hyperparameter to favor fitting smaller groups, and early stopping techniques to enhance generalization performance. </li> <li>Code: <a href="https://github.com/arobey1/mbdg">https://github.com/arobey1/mbdg</a>|
+| <img src="images/img42.png" width="900"> | <li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43901-8_68">DOMINO++: Domain-Aware Loss Regularization for Deep Learning Generalizability</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Introduce an adaptable regularization framework to calibrate intracranial MRI segmentation models based on expert-guided and data-guided knowledge. The strengths of this regularization lie in its ability to take advantage of the benefits of both the semantic confusability derived from domain knowledge and data distribution. </li>|
 
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img41.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-    Title: <a href="https://proceedings.neurips.cc/paper/2021/hash/a8f12d9486cbcc2fe0cfc5352011ad35-Abstract.html">Model-Based Domain Generalization</a></li>
-    <li>Publication: NeurIPS 2021 </li>
-    <li>Summary: Present a model-based domain generalization framework to rigorously reformulate the domain generalization problem as a semi-infinite constrained optimization problem. employed group distributionally robust optimization (GDRO) for the skin lesion classification model. This optimization involves more aggressive regularization, implemented through a hyperparameter to favor fitting smaller groups, and early stopping techniques to enhance generalization performance. </li>
-    <li>Code: <a href="https://github.com/arobey1/mbdg">https://github.com/arobey1/mbdg</a>
-  </tr>
-</table>
-
-
-
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img42.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-    Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43901-8_68">DOMINO++: Domain-Aware Loss Regularization for Deep Learning Generalizability</a></li>
-    <li>Publication: MICCAI 2023 </li>
-    <li>Summary: Introduce an adaptable regularization framework to calibrate intracranial MRI segmentation models based on expert-guided and data-guided knowledge. The strengths of this regularization lie in its ability to take advantage of the benefits of both the semantic confusability derived from domain knowledge and data distribution. </li>
-  </tr>
-</table>
 
 
 ## Model Test Level
 ### Test-time Adaptation
 
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img52.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-    Title: <a href="https://ieeexplore.ieee.org/abstract/document/10816643">UniAda: Domain Unifying and Adapting Network for Generalizable Medical Image Segmentation</a></li>
-    <li>Publication: IEEE TMI 2024 </li>
-    <li>Summary: Propose a domain Unifying and Adapting network (UniAda) with DFU and UTTA module for generalizable medical image segmentation, a novel "unifying while training, adapting while testing" paradigm that can learn a domain-aware base model during training and dynamically adapt it to unseen target domains during testing. The DFU module unifies multi-source domains into a global inter-source domain through a novel feature statistics update mechanism, capable of sampling new features for previously unseen domains, thus enhancing the training of a domain-aware base model. The UTTA module leverages an uncertainty map to guide the adaptation of the trained model for each testing sample, considering the possibility that the specific target domain may fall outside the global inter-source domain. </li>
-    <li>Code: <a href="https://github.com/ZhouZhang233/UniAda">https://github.com/ZhouZhang233/UniAda</a>
-      </ul>
-    </td>
-  </tr>
-</table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img52.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/10816643">UniAda: Domain Unifying and Adapting Network for Generalizable Medical Image Segmentation</a></li> <li>Publication: IEEE TMI 2024 </li> <li>Summary: Propose a domain Unifying and Adapting network (UniAda) with DFU and UTTA module for generalizable medical image segmentation, a novel "unifying while training, adapting while testing" paradigm that can learn a domain-aware base model during training and dynamically adapt it to unseen target domains during testing. The DFU module unifies multi-source domains into a global inter-source domain through a novel feature statistics update mechanism, capable of sampling new features for previously unseen domains, thus enhancing the training of a domain-aware base model. The UTTA module leverages an uncertainty map to guide the adaptation of the trained model for each testing sample, considering the possibility that the specific target domain may fall outside the global inter-source domain. </li> <li>Code: <a href="https://github.com/ZhouZhang233/UniAda">https://github.com/ZhouZhang233/UniAda</a>|
 
 
 ## Universal Foundation Model
 
 ### Interactive Segmentation
 
-
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img51.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-    Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li>
-    <li>Publication: Nature Communications 2024 </li>
-    <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li>
-    <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>
-  </tr>
-</table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img51.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li> <li>Publication: Nature Communications 2024 </li> <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li> <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>|
 
 
 ### Few-shot Segmentation
 
-<table>
-  <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img50.png" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    </td>
-    <td valign="top">
-      <ul style="padding-left: 20px; text-align: justify;"> <!-- 添加两端对齐 -->
-        <li>
-          Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a>
-        </li>
-        <li>Publication: ICCV 2023</li>
-        <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li>
-        <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>
-  </tr>
-</table>
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img50.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li> <li>Publication: ICCV 2023</li> <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li> <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>|
 
 
 
