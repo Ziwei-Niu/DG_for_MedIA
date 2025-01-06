@@ -598,13 +598,42 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
-|||
-|:-----:|:------------|
-| <img src="images/img50.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
 
-|||
-|:-----:|:------------|
-| <img src="images/img33.png" width="150"> | **Title:** UniverSeg <br> **Publication:** ICCV 2023 <br> **Summary:** n tasks without additional training UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training.|
+<table style="width: 600px; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <!-- 图片列，固定宽度 -->
+    <td style="width: 150px; height: 150px; text-align: center; vertical-align: top;">
+      <img src="images/img50.png" style="width: 100%; height: auto; object-fit: contain;" />
+    </td>
+    <!-- 文字描述列，固定宽度 -->
+    <td style="width: 450px; vertical-align: top; word-wrap: break-word; padding: 10px;">
+      <ul style="margin: 0; padding: 0; list-style-position: inside;">
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training. This method leverages.UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training. This method leveragesUniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training. This method leverages..</li>
+        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table style="width: 600px; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <!-- 图片列，固定宽度 -->
+    <td style="width: 150px; height: 150px; text-align: center; vertical-align: top;">
+      <img src="images/img22.png" style="width: 100%; height: auto; object-fit: contain;" />
+    </td>
+    <!-- 文字描述列，固定宽度 -->
+    <td style="width: 450px; vertical-align: top; word-wrap: break-word; padding: 10px;">
+      <ul style="margin: 0; padding: 0; list-style-position: inside;">
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks withouod for unseen medical segmentatsegmentation method for unseen medical segmentation tasks without additional training. This method leverages..</li>
+        <li><a href="https://universeg.csail.mit.edu">[Code]</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
     <tr>
