@@ -23,6 +23,6 @@ for filename in os.listdir(folder_path):
             img_resized = img.resize((target_width, new_height))
             
             # 保存修改后的图片
-            img_resized.save(os.path.join(folder_path, f"resized_{filename}"))
+            img_resized.save(os.path.join(folder_path, f"{filename}"))
 
 print("所有图片已处理完成！")
