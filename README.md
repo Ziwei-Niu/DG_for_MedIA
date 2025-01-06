@@ -598,6 +598,35 @@ Multi-component learning achieves feature disentanglement by designing different
 #### Generative Learning
 Generative models are also effective techniques for traditional feature disentanglement, such as InfoGAN and $\beta$-VAE. For domain generalization, generative learning based disentanglement methods attempt to elucidate the sample generation mechanisms from the perspectives of domain, sample, and label, thereby achieving feature decomposition.
 
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <td style="width: 150px; vertical-align: top; overflow: hidden;">
+      <img src="images/img49.png" style="width: 150px; height: auto;" />
+    </td>
+    <td style="vertical-align: top; white-space: normal;">
+      <ul>
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
+  <tr>
+    <td style="width: 150px; vertical-align: top; overflow: hidden;">
+      <img src="images/img31.png" style="width: 150px; height: auto;" />
+    </td>
+    <td style="vertical-align: top; white-space: normal;">
+      <ul>
+        <li><strong>Title:</strong> UniverSeg</li>
+        <li><strong>Publication:</strong> ICCV 2023</li>
+        <li><strong>Summary:</strong> UniverSeg is a universal segmentation method for unseen medical segmentation tasks without additional training...</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <table style="width: 500px; table-layout: fixed; border-collapse: collapse;">
     <tr>
