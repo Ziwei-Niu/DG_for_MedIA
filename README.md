@@ -629,12 +629,12 @@ Generative models are also effective techniques for traditional feature disentan
   </tr>
 </table>
 
-<table style="table-layout: fixed; width: 500px; height: 150px;">
+<table style="table-layout: fixed; width: 500px;">
   <tr>
-    <td style="width: 150px; height: 150px; overflow: hidden;">
-      <img src="images/img49.png" style="width: 100%; height: 100%; object-fit: contain;" />
+    <td style="width: 150px; height: auto; overflow: hidden;">
+      <img src="images/img49.png" style="width: 100%; height: auto; object-fit: contain;" />
     </td>
-    <td valign="top" style="width: 350px;">
+    <td valign="top">
       <ul style="padding-left: 20px; text-align: justify;">
         <li>
     Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_24">DiMix: Disentangle-and-Mix Based Domain Generalizable Medical Image Segmentation</a></li>
