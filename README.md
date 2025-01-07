@@ -244,6 +244,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 
 
 ## Universal Foundation Model
+>Medical image segmentation tasks encompass diverse imaging modalities, such as magnetic resonance imaging (MRI), X-ray, computed tomography (CT), and microscopy; various biomedical domains, including the abdomen, chest, brain, retina, and individual cells; and multiple label types within a region, such as heart valves or chambers. Traditional task-specific models are designed to train and test on a single, specific dataset. In contrast, universal foundation models aim to learn a single, generalizable medical image segmentation model capable of performing well across a wide range of tasks, including those significantly different from those encountered during training, without requiring retraining.
 
 ### Interactive Segmentation
 >Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
