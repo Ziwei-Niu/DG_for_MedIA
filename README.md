@@ -246,6 +246,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 ## Universal Foundation Model
 
 ### Interactive Segmentation
+>Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
 
 | Diagram | Descriptions |
 |:-----------------:|:------------|
