@@ -1,8 +1,8 @@
-# [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Domain Generalization and Foundation Model for Medical Image Analysis
+# [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Domain Generalization and Foundation Model in Medical Image Analysis
 
 ![](images/media.png)
 
-🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization and Foundation model for Medical Image Analysis (DG for MedIA)**.
+🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization and Foundation model in Medical Image Analysis (DG/FM in MedIA)**.
 
 
 <!-- 💗 Medical Image Analysis (MedIA) plays a critical role in computer aided diagnosis system, enabling accurate diagnosis and assessment for various diseases. Over the last decade, deep learning (DL) has demonstrated great success in automating various MedIA tasks such as disease diagnosis, lesion segmentation, prognosis prediction, etc. Despite their success, in many real-world healthcare scenarios, the difference in the image acquisition, such as device manufacturer, scanning protocol, image sequence, and modality, introduces domain shifts, resulting in a significant decline in performance when deploying the well-trained model to clinical sites with different data distributions. Additionally, considering that medical data involves privacy concerns, data sharing restrictions and requires manual annotations by medical experts, collecting data from all possible domains to train DL models is expensive and even prohibitively impossible. Therefore, enhancing the generalization ability of DL models in MedIA is crucial in both clinical and academic fields. -->
@@ -18,7 +18,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 - **08/02/2024 :** We released this repo for organizing papers ,codes, and etc related to domain generalization for medical image analysis.
 
 # Table of Contents
-- [ Domain Generalization and Foundation Model for Medical Image Analysis](#-domain-generalization-and-foundation-model-for-medical-image-analysis)
+- [ Domain Generalization and Foundation Model in Medical Image Analysis](#-domain-generalization-and-foundation-model-in-medical-image-analysis)
 - [Table of Contents](#table-of-contents)
 - [Papers (ongoing)](#papers-ongoing)
   - [Data Manipulation Level](#data-manipulation-level)
