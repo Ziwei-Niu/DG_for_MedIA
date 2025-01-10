@@ -52,7 +52,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 - [Other Resources](#other-resources)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-  - [Contributors](#contributors)
+- [Contributors](#contributors)
 
 ![](images/media2.png)
 
@@ -315,17 +315,10 @@ Self-supervised learning is a machine learning method where a model learns gener
 - We refer to [junkunyuan](https://github.com/junkunyuan/Awesome-Domain-Generalization), [amber0309](https://github.com/amber0309/Domain-generalization), and [yfzhang114](https://github.com/yfzhang114/Generalization-Causality) to design the details of the papers and datasets.
 
 
-## Contributors
+# Contributors
 <!-- readme: NaturalKnight,contributors,zerone-fg,contributors -start -->
 <table>
 <tr>
-    <td align="center">
-        <a href="https://github.com/naturalknight">
-            <img src="https://avatars.githubusercontent.com/u/51369520?v=4" width="100;" alt="naturalknight"/>
-            <br />
-            <sub><b>Naturalknight</b></sub>
-        </a>
-    </td>
     <td align="center">
         <a href="https://github.com/Ziwei-Niu">
             <img src="https://avatars.githubusercontent.com/u/53245939?v=4" width="100;" alt="Ziwei-Niu"/>
