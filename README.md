@@ -44,6 +44,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
   - [Model Test Level](#model-test-level)
     - [Test-time Adaptation](#test-time-adaptation)
   - [Universal Foundation Model](#universal-foundation-model)
+    - [Survey](#survey)
     - [Interactive Segmentation](#interactive-segmentation)
     - [Few-shot/One-shot Segmentation](#few-shotone-shot-segmentation)
 - [Datasets](#datasets)
@@ -248,6 +249,11 @@ Self-supervised learning is a machine learning method where a model learns gener
 
 ## Universal Foundation Model
 >Medical image segmentation tasks encompass diverse imaging modalities, such as magnetic resonance imaging (MRI), X-ray, computed tomography (CT), and microscopy; various biomedical domains, including the abdomen, chest, brain, retina, and individual cells; and multiple label types within a region, such as heart valves or chambers. Traditional task-specific models are designed to train and test on a single, specific dataset. In contrast, universal foundation models aim to learn a single, generalizable medical image segmentation model capable of performing well across a wide range of tasks, including those significantly different from those encountered during training, without requiring retraining.
+
+### Survey
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img53.png" width="900"> |<li> Title: <a href="https://arxiv.org/pdf/2310.18689">Foundational models in medical imaging: A comprehensive survey and future vision</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: This survey provides an in-depth review of recent advancements in foundational models for medical imaging. It categorizes these models into four main groups, distinguishing between those prompted by text and those guided by visual cues. Each category presents unique strengths and capabilities, which are further explored through exemplary works and comprehensive methodological descriptions. Furthermore, this survey evaluates the advantages and limitations inherent to each model type, highlighting their areas of excellence while identifying aspects requiring improvement.  </li> <li>Code: <a href="https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging">https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging</a>|
 
 ### Interactive Segmentation
 >Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
