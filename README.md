@@ -20,7 +20,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 # Table of Contents
 - [ Domain Generalization and Foundation Model in Medical Image Analysis](#-domain-generalization-and-foundation-model-in-medical-image-analysis)
 - [Table of Contents](#table-of-contents)
-- [Papers (ongoing)](#papers-ongoing)
+- [Papers on Domian Generalization (ongoing)](#papers-on-domian-generalization-ongoing)
   - [Data Manipulation Level](#data-manipulation-level)
     - [Data Augmentation](#data-augmentation)
       - [Normalization-based](#normalization-based)
@@ -56,7 +56,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 
 ![](images/summary.png)
 
-# Papers (ongoing)
+# Papers on Domian Generalization (ongoing)
 
 ## Data Manipulation Level
 ### Data Augmentation 
