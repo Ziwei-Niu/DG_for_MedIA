@@ -2,7 +2,7 @@
 
 ![](images/media.png)
 
-🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization and Foundation model in Medical Image Analysis (DG/FM in MedIA)**.
+🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization and Foundation model in Medical Image Analysis (DG&FM in MedIA)**.
 
 
 <!-- 💗 Medical Image Analysis (MedIA) plays a critical role in computer aided diagnosis system, enabling accurate diagnosis and assessment for various diseases. Over the last decade, deep learning (DL) has demonstrated great success in automating various MedIA tasks such as disease diagnosis, lesion segmentation, prognosis prediction, etc. Despite their success, in many real-world healthcare scenarios, the difference in the image acquisition, such as device manufacturer, scanning protocol, image sequence, and modality, introduces domain shifts, resulting in a significant decline in performance when deploying the well-trained model to clinical sites with different data distributions. Additionally, considering that medical data involves privacy concerns, data sharing restrictions and requires manual annotations by medical experts, collecting data from all possible domains to train DL models is expensive and even prohibitively impossible. Therefore, enhancing the generalization ability of DL models in MedIA is crucial in both clinical and academic fields. -->
@@ -54,7 +54,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 - [Acknowledgements](#acknowledgements)
 - [Contributors](#contributors)
 
-![](images/media2.png)
+![](images/summary.png)
 
 # Papers (ongoing)
 
@@ -179,8 +179,8 @@ Multi-component learning achieves feature disentanglement by designing different
 | <img src="images/img28.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2303.12649">MI-SegNet: Mutual Information-Based US Segmentation for Unseen Domain Generalization</a></li> <li>Publication: MICCAI 2023 </li> <li>Summary: Propose MI-SegNet for ultrasound image segmentation. MI-SegNet employs two encoders that separately extract anatomical and domain features from images, and Mutual Information Neural Estimation (MINE) approximation is used to minimize the mutual information between these features. </li>|
 | <img src="images/img48.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html">Towards principled disentanglement for domain generalization</a></li> <li>Publication: CVPR 2022 </li> <li>Summary: Introduce disentanglement-constrained domain generalization (DDG) for cross-center tumor detection, which simultaneously learns a semantic encoder and a variation encoder for feature disentanglement, and further constrains the learned representations to be invariant to inter-class variation. </li>|
 | <img src="images/img29.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2205.06551">Contrastive Domain Disentanglement for Generalizable Medical Image Segmentation</a></li> <li>Publication: Arxiv 2022 </li> <li>Summary: Propose Contrastive Domain Disentanglement and Style Augmentation (CDDSA) for image segmentation in the fundus and MR images. This method introduce a disentangle network to decompose medical images into an anatomical representation and a modality representation, and a style contrastive loss function is designed to ensures that style representations from the same domain bear similarity while those from different domains diverge significantly. </li>|
-| <img src="images/img30.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9163289">DoFE: Domain-Oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Proposed Domain-oriented Feature Embedding (DoFE) for fundus image segmentation. The DoFE framework incorporates a domain knowledge pool to learn and store the domain prior information (domain-specic) extracted from the multi-source domains. This domain prior knowledge is then dynamically enriched with the image features to make the semantic features more discriminative, improving the generalization ability of the segmentation networks on unseen target domains. </li>|
-| <img src="images/img30.png" width="900"> |<li> Title: <a href="https://ieeexplore.ieee.org/abstract/document/9163289">DoFE: Domain-Oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets</a></li> <li>Publication: IEEE TMI 2020 </li> <li>Summary: Proposed Domain-oriented Feature Embedding (DoFE) for fundus image segmentation. The DoFE framework incorporates a domain knowledge pool to learn and store the domain prior information (domain-specic) extracted from the multi-source domains. This domain prior knowledge is then dynamically enriched with the image features to make the semantic features more discriminative, improving the generalization ability of the segmentation networks on unseen target domains. </li>|
+
+
 
 
 #### Generative Learning
