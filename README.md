@@ -51,6 +51,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
   - [Textual Prompted Models](#textual-prompted-models)
     - [Contrastive](#contrastive)
     - [Generative](#generative)
+    - [Conversational](#conversational)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Other Resources](#other-resources)
