@@ -1,6 +1,6 @@
 # [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) Domain Generalization and Foundation Model in Medical Image Analysis
 
-![](images/media3.png)
+![](images/media3.jpg)
 
 🔥 This is a repository for organizing papers ,codes, and etc related to **Domain Generalization and Foundation model in Medical Image Analysis (DG&FM in MedIA)**.
 
