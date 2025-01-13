@@ -45,10 +45,10 @@ However, compared to task-specific DG models, FM offers increased task diversity
     - [Test-time Adaptation](#test-time-adaptation)
   - [Universal Foundation Model](#universal-foundation-model)
     - [Survey](#survey)
-    - [Visual Prompted Models](#visual-prompted-models)
+    - [Visual Foundation Models](#visual-foundation-models)
       - [Interactive](#interactive)
       - [Few-shot/One-shot](#few-shotone-shot)
-    - [Textual Prompted Models](#textual-prompted-models)
+    - [Multimodal Foundation Models](#multimodal-foundation-models)
       - [Contrastive](#contrastive)
       - [Generative](#generative)
       - [Conversational](#conversational)
@@ -261,7 +261,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 |:-----------------:|:------------|
 | <img src="images/img53.png" width="900"> |<li> Title: <a href="https://arxiv.org/pdf/2310.18689">Foundational models in medical imaging: A comprehensive survey and future vision</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: This survey provides an in-depth review of recent advancements in foundational models for medical imaging. It categorizes these models into four main groups, distinguishing between those prompted by text and those guided by visual cues. Each category presents unique strengths and capabilities, which are further explored through exemplary works and comprehensive methodological descriptions. Furthermore, this survey evaluates the advantages and limitations inherent to each model type, highlighting their areas of excellence while identifying aspects requiring improvement.  </li> <li>Repo: <a href="https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging">https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging</a>|
 
-### Visual Prompted Models
+### Visual Foundation Models
 #### Interactive
 >Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
 
@@ -285,7 +285,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img65.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2407.14153">ESP-MedSAM: Efficient Self-Prompting SAM for  Universal Domain-Generalized Medical Image  Segmentation</a></li> <li>Publication: Arxiv 2024</li> <li>Propose an efficient self-prompting SAM for universal domain-generalized medical image segmentation, named ESP-MedSAM. A multi-modal Decoupled Knowledge Distillation (MMDKD) strategy is first designed to construct a lightweight semi-parameter sharing image encoder that produces discriminative visual features for diverse modalities. Further, it introduces the Self-Patch Prompt Generator (SPPG) to generate high-quality dense prompt embeddings for guiding segmentation decoding automatically. Finally, it designed the Query-Decoupled Modality Decoder (QDMD) that leverages a one-to-one strategy to provide an independent decoding channel for every modality.</li> <li>Code: <a href="https://github.com/xq141839/ESP-MedSAM">https://github.com/xq141839/ESP-MedSAM</a>|
 | <img src="images/img50.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li> <li>Publication: ICCV 2023</li> <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li> <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>|
 
-### Textual Prompted Models
+### Multimodal Foundation Models
 
 #### Contrastive
 >Contrastive textually prompted models are increasingly recognized as foundational models for medical imaging. They learn representations that capture the semantics and relationships between medical images and their corresponding textual prompts. By leveraging contrastive learning objectives, these models bring similar image-text pairs closer in the feature space while pushing dissimilar pairs apart.
@@ -297,6 +297,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 
 
 #### Generative
+>Generative models represent another category within textually prompted models for medical imaging. These models are designed to generate realistic medical images based on textual prompts or descriptions. They utilize techniques such as variational autoencoders (VAEs) and generative adversarial networks (GANs) to learn the underlying distribution of medical images, enabling the creation of new samples that align with the provided prompts.
 
 #### Conversational
 >Conversational textually prompted models are designed to enable interactive dialogues between medical professionals and the model by fine-tuning foundational models on specific instruction sets. These models enhance communication and collaboration, allowing medical experts to ask questions, provide instructions, and seek explanations related to medical images.
