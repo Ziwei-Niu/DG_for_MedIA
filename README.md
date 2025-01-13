@@ -299,6 +299,10 @@ Self-supervised learning is a machine learning method where a model learns gener
 #### Generative
 >Generative models represent another category within textually prompted models for medical imaging. These models are designed to generate realistic medical images based on textual prompts or descriptions. They utilize techniques such as variational autoencoders (VAEs) and generative adversarial networks (GANs) to learn the underlying distribution of medical images, enabling the creation of new samples that align with the provided prompts.
 
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img66.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2307.15189">Med-Flamingo: a Multimodal Medical Few-shot Learner</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: Propose Med-Flamingo, a multimodal few-shot learner adapted to the medical domain. Based on OpenFlamingo-9B, it is pre-trained on paired and interleaved medical image-text data from publications and textbooks. Med-Flamingo unlocks few-shot generative medical visual question answering (VQA) abilities. </li> <li>Repo: <a href="https://github.com/snap-stanford/med-flamingo">https://github.com/snap-stanford/med-flamingo</a>|
+
 #### Conversational
 >Conversational textually prompted models are designed to enable interactive dialogues between medical professionals and the model by fine-tuning foundational models on specific instruction sets. These models enhance communication and collaboration, allowing medical experts to ask questions, provide instructions, and seek explanations related to medical images.
 
