@@ -43,15 +43,15 @@ However, compared to task-specific DG models, FM offers increased task diversity
     - [Optimization Strategy](#optimization-strategy)
   - [Model Test Level](#model-test-level)
     - [Test-time Adaptation](#test-time-adaptation)
-- [Universal Foundation Model](#universal-foundation-model)
-  - [Survey](#survey)
-  - [Visual Prompted Models](#visual-prompted-models)
-    - [Interactive](#interactive)
-    - [Few-shot/One-shot](#few-shotone-shot)
-  - [Textual Prompted Models](#textual-prompted-models)
-    - [Contrastive](#contrastive)
-    - [Generative](#generative)
-    - [Conversational](#conversational)
+  - [Universal Foundation Model](#universal-foundation-model)
+    - [Survey](#survey)
+    - [Visual Prompted Models](#visual-prompted-models)
+      - [Interactive](#interactive)
+      - [Few-shot/One-shot](#few-shotone-shot)
+    - [Textual Prompted Models](#textual-prompted-models)
+      - [Contrastive](#contrastive)
+      - [Generative](#generative)
+      - [Conversational](#conversational)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Other Resources](#other-resources)
@@ -281,8 +281,23 @@ Self-supervised learning is a machine learning method where a model learns gener
 ### Textual Prompted Models
 
 #### Contrastive
+>Contrastive textually prompted models are increasingly recognized as foundational models for medical imaging. They learn representations that capture the semantics and relationships between medical images and their corresponding textual prompts. By leveraging contrastive learning objectives, these models bring similar image-text pairs closer in the feature space while pushing dissimilar pairs apart.
+
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img59.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-72378-0_67">MM-Retinal: Knowledge-Enhanced Foundational Pretraining with Fundus Image-Text Expertise</a></li> <li>Publication: MICCAI 2024</li> <li>Propose MM-Retinal, a multi-modal dataset that encompasses high-quality image-text pairs collected from professional fundus diagram books. Moreover, enabled by MM-Retinal, present a novel Knowledge-enhanced foundational pretraining model which incorporates Fundus Image-Text expertise. It is designed with image similarity-guided text revision and mixed training strategy to infuse expert knowledge.</li> <li>Code: <a href="https://github.com/lxirich/MM-Retinal">https://github.com/lxirich/MM-Retinal</a>|
+| <img src="images/img58.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-023-40260-7">Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images</a></li> <li>Publication: Nature Communications 2023</li> <li>Propose an approach called Knowledge-enhanced Auto Diagnosis (KAD) which leverages existing medical domain knowledge to guide vision-language pre-training using paired chest X-rays and radiology reports.</li>|
+
 
 #### Generative
+
+#### Conversational
+>Conversational textually prompted models are designed to enable interactive dialogues between medical professionals and the model by fine-tuning foundational models on specific instruction sets. These models enhance communication and collaboration, allowing medical experts to ask questions, provide instructions, and seek explanations related to medical images.
+
+| Diagram | Descriptions |
+|:-----------------:|:------------|
+| <img src="images/img57.png" width="900"> |<li> Title: <a href="https://arxiv.org/pdf/2409.17508">Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE</a></li> <li>Publication: Neurips 2024</li> <li>Propose Uni-Med, a novel medical generalist foundation model consisting of a universal visual feature extraction module, a connector mixture-of-experts (CMoE) module, and a large language model (LLM). Benefiting from the proposed CMoE, which leverages a well-designed router with a mixture of projection experts at the connector, Uni-Med provides an efficient solution to the tug-of-war problem. It is capable of performing six different medical tasks, including question answering, visual question answering, report generation, referring expression comprehension, referring expression generation, and image classification.</li> <li>Code: <a href="https://github.com/MSIIP/Uni-Med">https://github.com/MSIIP/Uni-Med</a>|
+
 
 # Datasets
 > We list the widely used benchmark datasets for domain generalization including classification and segmentation. 
