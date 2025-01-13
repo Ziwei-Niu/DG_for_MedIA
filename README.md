@@ -43,15 +43,15 @@ However, compared to task-specific DG models, FM offers increased task diversity
     - [Optimization Strategy](#optimization-strategy)
   - [Model Test Level](#model-test-level)
     - [Test-time Adaptation](#test-time-adaptation)
-  - [Universal Foundation Model](#universal-foundation-model)
-    - [Survey](#survey)
-    - [Visual Foundation Models](#visual-foundation-models)
-      - [Interactive](#interactive)
-      - [Few-shot/One-shot](#few-shotone-shot)
-    - [Multimodal Foundation Models](#multimodal-foundation-models)
-      - [Contrastive](#contrastive)
-      - [Generative](#generative)
-      - [Conversational](#conversational)
+- [Papers on Universal Foundation Model](#papers-on-universal-foundation-model)
+  - [Survey](#survey)
+  - [Visual Foundation Models](#visual-foundation-models)
+    - [Interactive](#interactive)
+    - [Few-shot/One-shot](#few-shotone-shot)
+  - [Multimodal Foundation Models](#multimodal-foundation-models)
+    - [Contrastive](#contrastive)
+    - [Generative](#generative)
+    - [Conversational](#conversational)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Other Resources](#other-resources)
@@ -253,16 +253,16 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img56.png" width="900"> |<li> Title: <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20068">Single-Domain Generalization in Medical Image Segmentation via Test-Time Adaptation from Shape Dictionary</a></li> <li>Setting: SDG </li> <li>Publication: AAAI 2022 </li> <li>Summary: Present a SDG approach that extracts and integrates the semantic shape prior information of segmentation that are invariant across domains and can be well-captured even from single domain data to facilitate segmentation under distribution shifts. Besides, a test-time adaptation strategy with dual-consistency regularization is further devised to promote dynamic incorporation of these shape priors under each unseen domain to improve model generalizability.|
 
 
-## Universal Foundation Model
+# Papers on Universal Foundation Model
 >Medical image segmentation tasks encompass diverse imaging modalities, such as magnetic resonance imaging (MRI), X-ray, computed tomography (CT), and microscopy; various biomedical domains, including the abdomen, chest, brain, retina, and individual cells; and multiple label types within a region, such as heart valves or chambers. Traditional task-specific models are designed to train and test on a single, specific dataset. In contrast, universal foundation models aim to learn a single, generalizable medical image segmentation model capable of performing well across a wide range of tasks, including those significantly different from those encountered during training, without requiring retraining.
 
-### Survey
+## Survey
 | Diagram | Descriptions |
 |:-----------------:|:------------|
 | <img src="images/img53.png" width="900"> |<li> Title: <a href="https://arxiv.org/pdf/2310.18689">Foundational models in medical imaging: A comprehensive survey and future vision</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: This survey provides an in-depth review of recent advancements in foundational models for medical imaging. It categorizes these models into four main groups, distinguishing between those prompted by text and those guided by visual cues. Each category presents unique strengths and capabilities, which are further explored through exemplary works and comprehensive methodological descriptions. Furthermore, this survey evaluates the advantages and limitations inherent to each model type, highlighting their areas of excellence while identifying aspects requiring improvement.  </li> <li>Repo: <a href="https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging">https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging</a>|
 
-### Visual Foundation Models
-#### Interactive
+## Visual Foundation Models
+### Interactive
 >Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
 
 | Diagram | Descriptions |
@@ -275,7 +275,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img63.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-72390-2_47">DB-SAM: Delving into High Quality Universal Medical Image Segmentation</a></li> <li>Publication: MICCAI 2024 </li> <li>Summary: Propose a dual-branch adapted SAM framework, which contains two branches in parallel: a ViT branch and a convolution branch. The ViT branch incorporates a learnable channel attention block after each frozen attention block, which captures domain-specific local features. On the other hand, the convolution branch employs a lightweight convolutional block to extract domain-specific shallow features from the input medical image. To perform cross-branch feature fusion, a bilateral cross-attention block and a ViT convolution fusion block are designed to dynamically combine diverse information of two branches for mask decoder. </li> <li>Code: <a href="https://github.com/AlfredQin/DB-SAM">https://github.com/AlfredQin/DB-SAM</a>|
 | <img src="images/img63.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-72390-2_47">DB-SAM: Delving into High Quality Universal Medical Image Segmentation</a></li> <li>Publication: MICCAI 2024 </li> <li>Summary: Propose a dual-branch adapted SAM framework, which contains two branches in parallel: a ViT branch and a convolution branch. The ViT branch incorporates a learnable channel attention block after each frozen attention block, which captures domain-specific local features. On the other hand, the convolution branch employs a lightweight convolutional block to extract domain-specific shallow features from the input medical image. To perform cross-branch feature fusion, a bilateral cross-attention block and a ViT convolution fusion block are designed to dynamically combine diverse information of two branches for mask decoder. </li> <li>Code: <a href="https://github.com/AlfredQin/DB-SAM">https://github.com/AlfredQin/DB-SAM</a>|
 
-#### Few-shot/One-shot
+### Few-shot/One-shot
 >In few-shot/one-shot setting, a pre-trained foundationa model needs one or few labeled samples as the ’supportive examples’, to grasp a new specific task.
 
 | Diagram | Descriptions |
@@ -285,9 +285,9 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img65.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2407.14153">ESP-MedSAM: Efficient Self-Prompting SAM for  Universal Domain-Generalized Medical Image  Segmentation</a></li> <li>Publication: Arxiv 2024</li> <li>Propose an efficient self-prompting SAM for universal domain-generalized medical image segmentation, named ESP-MedSAM. A multi-modal Decoupled Knowledge Distillation (MMDKD) strategy is first designed to construct a lightweight semi-parameter sharing image encoder that produces discriminative visual features for diverse modalities. Further, it introduces the Self-Patch Prompt Generator (SPPG) to generate high-quality dense prompt embeddings for guiding segmentation decoding automatically. Finally, it designed the Query-Decoupled Modality Decoder (QDMD) that leverages a one-to-one strategy to provide an independent decoding channel for every modality.</li> <li>Code: <a href="https://github.com/xq141839/ESP-MedSAM">https://github.com/xq141839/ESP-MedSAM</a>|
 | <img src="images/img50.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li> <li>Publication: ICCV 2023</li> <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li> <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>|
 
-### Multimodal Foundation Models
+## Multimodal Foundation Models
 
-#### Contrastive
+### Contrastive
 >Contrastive textually prompted models are increasingly recognized as foundational models for medical imaging. They learn representations that capture the semantics and relationships between medical images and their corresponding textual prompts. By leveraging contrastive learning objectives, these models bring similar image-text pairs closer in the feature space while pushing dissimilar pairs apart.
 
 | Diagram | Descriptions |
@@ -296,14 +296,14 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img58.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-023-40260-7">Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images</a></li> <li>Publication: Nature Communications 2023</li> <li>Propose an approach called Knowledge-enhanced Auto Diagnosis (KAD) which leverages existing medical domain knowledge to guide vision-language pre-training using paired chest X-rays and radiology reports.</li>|
 
 
-#### Generative
+### Generative
 >Generative models represent another category within textually prompted models for medical imaging. These models are designed to generate realistic medical images based on textual prompts or descriptions. They utilize techniques such as variational autoencoders (VAEs) and generative adversarial networks (GANs) to learn the underlying distribution of medical images, enabling the creation of new samples that align with the provided prompts.
 
 | Diagram | Descriptions |
 |:-----------------:|:------------|
 | <img src="images/img66.png" width="900"> |<li> Title: <a href="https://arxiv.org/abs/2307.15189">Med-Flamingo: a Multimodal Medical Few-shot Learner</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: Propose Med-Flamingo, a multimodal few-shot learner adapted to the medical domain. Based on OpenFlamingo-9B, it is pre-trained on paired and interleaved medical image-text data from publications and textbooks. Med-Flamingo unlocks few-shot generative medical visual question answering (VQA) abilities. </li> <li>Repo: <a href="https://github.com/snap-stanford/med-flamingo">https://github.com/snap-stanford/med-flamingo</a>|
 
-#### Conversational
+### Conversational
 >Conversational textually prompted models are designed to enable interactive dialogues between medical professionals and the model by fine-tuning foundational models on specific instruction sets. These models enhance communication and collaboration, allowing medical experts to ask questions, provide instructions, and seek explanations related to medical images.
 
 | Diagram | Descriptions |
@@ -378,4 +378,3 @@ Self-supervised learning is a machine learning method where a model learns gener
         </a>
     </td></tr>
 </table>
-<!-- readme: NaturalKnight,contributors,zerone-fg,contributors -end -->
