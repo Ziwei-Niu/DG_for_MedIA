@@ -59,7 +59,7 @@ However, compared to task-specific DG models, FM offers increased task diversity
 - [Acknowledgements](#acknowledgements)
 - [Contributors](#contributors)
 
-![](images/summary.png)
+![](images/media_new.png)
 
 # Papers on Domian Generalization (ongoing)
 
