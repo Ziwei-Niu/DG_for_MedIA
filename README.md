@@ -10,7 +10,7 @@
 Domain generalization (DG), as an effective method to improve the generalization performance of task-specific models, can effectively mitigate the performance degradation caused by domain shifts in medical images, such as cross-center, cross-sequence, and cross-modality variations. Recently, with the explosive growth of data and advancements in computational resources, Foundation Model (FM) has addressed the domain shift issue in a more direct manner by collecting a vast amount of diverse data, effectively preventing domain shifts at the source. It can handle a wide variety of tasks, including entirely new tasks that it has never encountered before.
 However, compared to task-specific DG models, FM offers increased task diversity and flexibility. Nonetheless, challenges such as medical data privacy concerns, data-sharing restrictions, the need for manual annotations by medical experts, and deployment demands persist. Therefore, we maintain that both DG and FM have their own merits and continue to hold significant research value.
 
-🎯 We hope that this repository can provide assistance to researchers and practitioners in medical image analysis and domain generalization.
+🎯 We hope that this repository can provide assistance to researchers and practitioners in medical image analysis, domain generalization and foundation models.
 
 🚀 New Updates:
 - **06/01/2025 :** We have modified the presentation format to a table, which makes it easier for readers to review.
