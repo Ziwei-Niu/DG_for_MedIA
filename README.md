@@ -43,14 +43,14 @@ However, compared to task-specific DG models, FM offers increased task diversity
     - [Optimization Strategy](#optimization-strategy)
   - [Model Test Level](#model-test-level)
     - [Test-time Adaptation](#test-time-adaptation)
-- [Universal Foundation Model](#universal-foundation-model)
-  - [Survey](#survey)
-  - [Visual Prompted Models](#visual-prompted-models)
-    - [Interactive](#interactive)
-    - [Few-shot/One-shot](#few-shotone-shot)
-  - [Textual Prompted Models](#textual-prompted-models)
-    - [Contrastive](#contrastive)
-    - [Generative](#generative)
+  - [Universal Foundation Model](#universal-foundation-model)
+    - [Survey](#survey)
+    - [Visual Prompted Models](#visual-prompted-models)
+      - [Interactive](#interactive)
+      - [Few-shot/One-shot](#few-shotone-shot)
+    - [Textual Prompted Models](#textual-prompted-models)
+      - [Contrastive](#contrastive)
+      - [Generative](#generative)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Other Resources](#other-resources)
@@ -260,7 +260,8 @@ Self-supervised learning is a machine learning method where a model learns gener
 |:-----------------:|:------------|
 | <img src="images/img53.png" width="900"> |<li> Title: <a href="https://arxiv.org/pdf/2310.18689">Foundational models in medical imaging: A comprehensive survey and future vision</a></li> <li>Publication: Arxiv 2023 </li> <li>Summary: This survey provides an in-depth review of recent advancements in foundational models for medical imaging. It categorizes these models into four main groups, distinguishing between those prompted by text and those guided by visual cues. Each category presents unique strengths and capabilities, which are further explored through exemplary works and comprehensive methodological descriptions. Furthermore, this survey evaluates the advantages and limitations inherent to each model type, highlighting their areas of excellence while identifying aspects requiring improvement.  </li> <li>Repo: <a href="https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging">https://github.com/xmindflow/Awesome-Foundation-Models-in-Medical-Imaging</a>|
 
-### Interactive Segmentation
+### Visual Prompted Models
+#### Interactive
 >Interactive segmentation paradigm means the foundation model segments the target following the user-given prompts, such as a point, a bounding box (BBox), doodles or free text-like descriptions.
 
 | Diagram | Descriptions |
@@ -268,7 +269,7 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img51.png" width="900"> |<li> Title: <a href="https://www.nature.com/articles/s41467-024-44824-z">Segment anything in medical images</a></li> <li>Publication: Nature Communications 2024 </li> <li>Summary: Present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. </li> <li>Code: <a href="https://github.com/bowang-lab/MedSAM">https://github.com/bowang-lab/MedSAM</a>|
 | <img src="images/img54.png" width="900"> |<li> Title: <a href="https://link.springer.com/chapter/10.1007/978-3-031-73661-2_12">ScribblePrompt: Fast and Flexible Interactive  Segmentation for Any Biomedical Image</a></li> <li>Publication: ECCV 2024 </li> <li>Summary: Present ScribblePrompt, a flexible neural network based interactive segmentation tool for biomedical imaging that enables human annotators to segment previously unseen structures using scribbles, clicks, and bounding box. ScribblePrompt’s success rests on a set of careful design decisions. These include a training strategy that incorporates both a highly diverse set of images and tasks, novel algorithms for simulated user interactions and labels, and a network that enables fast inference. </li> <li>Code: <a href="https://scribbleprompt.csail.mit.edu">https://scribbleprompt.csail.mit.edu</a>|
 
-### Few-shot/One-shot Segmentation
+#### Few-shot/One-shot
 >In few-shot/one-shot setting, a pre-trained foundationa model needs one or few labeled samples as the ’supportive examples’, to grasp a new specific task.
 
 | Diagram | Descriptions |
@@ -276,7 +277,11 @@ Self-supervised learning is a machine learning method where a model learns gener
 | <img src="images/img55.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_One-Prompt_to_Segment_All_Medical_Images_CVPR_2024_paper.html">One-Prompt to Segment All Medical Images</a></li> <li>Publication: CVPR 2024</li> <li>Introduce a new paradigm toward the universal medical image segmentation termed One-Prompt Segmentation which combines the strengths of one-shot and interactive methods. In the inference stage with just one prompted sample it can adeptly handle the unseen task in a single forward pass.</li> <li>Code: <a href="https://github.com/KidsWithTokens/one-prompt">https://github.com/KidsWithTokens/one-prompt</a>|
 | <img src="images/img50.png" width="900"> |<li> Title: <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Butoi_UniverSeg_Universal_Medical_Image_Segmentation_ICCV_2023_paper.html">UniverSeg: Universal Medical Image Segmentation</a></li> <li>Publication: ICCV 2023</li> <li>Summary: Present UniverSeg, a universal segmentation method for solving unseen medical segmentation tasks without additional training. Given a query image and an example set of image-label pairs that define a new segmentation task, UniverSeg employs a new CrossBlock mechanism to produce accurate segmentation maps without additional training. What's more, 53 open-access medical segmentation datasets with over 22,000 scans were collected to train UniverSeg on a diverse set of anatomies and imaging modalities.</li> <li>Code: <a href="https://universeg.csail.mit.edu">https://universeg.csail.mit.edu</a>|
 
+### Textual Prompted Models
 
+#### Contrastive
+
+#### Generative
 
 # Datasets
 > We list the widely used benchmark datasets for domain generalization including classification and segmentation. 
